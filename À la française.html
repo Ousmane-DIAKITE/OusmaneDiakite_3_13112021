@@ -3,95 +3,100 @@
     <head>
         <!-- En-tete de la page -->
         <meta charset="utf-8" />
+        <meta name="description"  content="Template to start HTML">
         <title>À la française - Cite-rouge</title>
+        <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" as="style">
+        <link rel="preload" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" as="style">
+        <link rel="preload" href="css/style.css" as="style">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>  
         <header>
-            <nav class="nav">
-            <a href="https://github.com/Ousmane-DIAKITE/OusmaneDiakite_3_13112021/blob/559fac8aaefa2de1c20fa46a4544638e8cf9e6c4/index.html"><i class="fas fa-arrow-left"></i></a>
-            <a href="https://github.com/Ousmane-DIAKITE/OusmaneDiakite_3_13112021/blob/559fac8aaefa2de1c20fa46a4544638e8cf9e6c4/index.html"><img src="Maquettes Ohmyfood\images\logo\ohmyfood.png" alt="logo" class="logo"/></a>
-            </nav>
+            <a href="https://github.com/Ousmane-DIAKITE/OusmaneDiakite_3_13112021/blob/559fac8aaefa2de1c20fa46a4544638e8cf9e6c4/index.html">
+                <i class="fas fa-arrow-left"></i>
+                <img src="Maquettes Ohmyfood\images\logo\ohmyfood.png" alt="logo" class="logo"/>
+            </a>
         </header>
-        <main class="food">
-            <section class="restaurant">
+        <main>
+            <header>
                 <img src="Maquettes Ohmyfood\images\restaurants\toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Photo d'un plat du restaurant À la française - Cite-rouge"/>
                 <h1 class="restaurant-title">À la française</h1>
-                <label class="heart-icon">
+                <label>
                     <i class="far fa-heart"></i>
                 </label>
+            </header>
+            <section>
+                <h2>Entrées</h2>
+                <ul>
+                    <li>
+                        <h3>Tartare de poulpe acidulé</h3>
+                        <p>Aux zests d'orange</p>
+                        <p>25€</p>
+                    </li>
+                    <li>
+                        <h3>Velouté de légumes d'antan</h3>
+                        <p>Carotte, panais, topinambour</p>
+                        <p>35€</p>
+                    </li>
+                    <li>
+                        <h3>Soupe à l'oignon</h3>
+                        <p>Revisitée</p>
+                        <p>20€</p>
+                    </li>
+                </ul>
             </section>
-            <ul class="menu">
-                <li>
-                    <h2>Entrées</h2>
-                    <ul>
-                        <li>
-                            <h3>Tartare de poulpe acidulé</h3>
-                            <p class="card-menu-details">Aux zests d'orange</p>
-                            <p class="card-menu-prix">25€</p>
-                        </li>
-                        <li>
-                            <h3>Velouté de légumes d'antan</h3>
-                            <p class="card-menu-details">Carotte, panais, topinambour</p>
-                            <p class="card-menu-prix">35€</p>
-                        </li>
-                        <li>
-                            <h3>Soupe à l'oignon</h3>
-                            <p class="card-menu-details">Revisitée</p>
-                            <p class="card-menu-prix">20€</p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <h2>Plats</h2>
-                    <ul>
-                        <li>
-                            <h3>Coquilles Saint-Jacques</h3>
-                            <p class="card-menu-details">Acocompagné d'une purée de panais</p>
-                            <p class="card-menu-prix">40€</p>
-                        </li>
-                        <li>
-                            <h3>Margret de canard</h3>
-                            <p class="card-menu-details">Et parmentier de pommes de terres</p>
-                            <p class="card-menu-prix">35€</p>
-                        </li>
-                        <li>
-                            <h3>Pigeonneau d'Ille-et-Vilaine</h3>
-                            <p class="card-menu-details">Sur son lit de gnocchis aux légumes</p>
-                            <p class="card-menu-prix">44€</p>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <h2>Desserts</h2>
-                    <ul>
-                        <li>
-                            <h3>Pétales de violettes glacés</h3>
-                            <p class="card-menu-details">Et purée de noisettes</p>
-                            <p class="card-menu-prix">18€</p>
-                        </li>
-                        <li>
-                            <h3>Fondant au chocolat</h3>
-                            <p class="card-menu-details">Revisité</p>
-                            <p class="card-menu-prix">22€</p>
-                        </li>
-                        <li>
-                            <h3>Millefeuille croustillant</h3>
-                            <p class="card-menu-details">Myrtilles et pâye d'amande</p>
-                            <p class="card-menu-prix">23€</p>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
+            <section>
+                <h2>Plats</h2>
+                <ul>
+                    <li>
+                        <h3>Coquilles Saint-Jacques</h3>
+                        <p>Acocompagné d'une purée de panais</p>
+                        <p>40€</p>
+                    </li>
+                    <li>
+                        <h3>Margret dey canard</h3>
+                        <p>Et parmentier de pommes de terres</p>
+                        <p>35€</p>
+                    </li>
+                    <li>
+                        <h3>Pigeonneau d'Ille-et-Vilaine</h3>
+                        <p>Sur son lit de gnocchis aux légumes</p>
+                        <p >44€</p>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2>Desserts</h2>
+                <ul>
+                    <li>
+                        <h3>Pétales de violettes glacés</h3>
+                        <p class="card-menu-details">Et purée de noisettes</p>
+                        <p class="card-menu-prix">18€</p>
+                    </li>
+                    <li>
+                        <h3>Fondant au chocolat</h3>
+                        <p class="card-menu-details">Revisité</p>
+                        <p class="card-menu-prix">22€</p>
+                    </li>
+                    <li>
+                        <h3>Millefeuille croustillant</h3>
+                        <p class="card-menu-details">Myrtilles et pâye d'amande</p>
+                        <p class="card-menu-prix">23€</p>
+                    </li>
+                </ul>
+            </section>
             <button class="order-button">Commander</button>
         </main>
         <footer>
-            <h5>ohmyfood</h5>
+            <h3>ohmyfood</h3>
             <ul>
-                <li><i class="fas fa-utensils"></i><a href="#" class="footer-link">Proposer un restaurant</a></li>
-                <li><i class="fas fa-hands-helping"></i><a href="#" class="footer-link">Devenir partenaire</a></li>
-                <li><a href="#" class="footer-link">Mentions légales</a></li>
-                <li><a href="mailto:#" class="footer-link">Contact</a></li>
+                <li><i class="fas fa-utensils"></i><a href="#" class="">Proposer un restaurant</a></li>
+                <li><i class="fas fa-hands-helping"></i><a href="#" class="">Devenir partenaire</a></li>
+                <li><a href="#" class="">Mentions légales</a></li>
+                <li><a href="mailto:#" class="">Contact</a></li>
             </ul>
         </footer>
     </body>
