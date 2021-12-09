@@ -68,7 +68,7 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
     padding-left: 10px;
 }
-.ul.li {
+.ul .li {
     border-radius: 15px;
     width: 75%;
     display: flex;
