@@ -57,16 +57,23 @@ h1 {
 }
 
 .fonctionnement {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    padding: 1em 1em;
 }
 
 h2 {
-    align-self: center;
+    padding-left: 15px;
 }
 
 .ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10px;
+}
+.ul.li {
+    border-radius: 15px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    background-color: #f6f6f6;
+    align-items: center;
 }
