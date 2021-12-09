@@ -36,3 +36,9 @@ section {
     background-color: #F2F2F2;
     padding: 40px 0 40px 0;
 }
+
+h1 {
+    font-size: 1.5em;
+    margin: 0.67em 0;
+    font-weight: bold;
+}
