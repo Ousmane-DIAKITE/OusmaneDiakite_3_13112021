@@ -13,6 +13,12 @@ margin: 10px auto 15px;
 form {
     display: flex;
     justify-content: center;
-    background-color: #eaeaea;
+    background-color: #eaeaea
+}
 
+.search {
+    background-color: none;
+    border: none;
+    font-weight: bold;
+    margin: 15px 15px 15px;
 }
