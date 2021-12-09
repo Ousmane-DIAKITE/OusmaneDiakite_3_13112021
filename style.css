@@ -46,7 +46,7 @@ h1 {
 .link-restaurant {
     color: white;
     border-radius: 45px;
-    background: #9356DC;
+    background: linear-gradient(#ec73da, #9f5adc);
     width: 15%;
     padding: 15px 10px 15px;
     margin: 20px;
@@ -63,6 +63,6 @@ h1 {
 }
 
 .ol {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
