@@ -17,8 +17,8 @@ form {
 }
 
 .search {
-    background-color: none;
-    
+    border: none;
+    background-color: #eaeaea;
     font-weight: bold;
     margin: 15px 15px 15px;
 }
