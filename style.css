@@ -52,6 +52,8 @@ h1 {
     margin: 20px;
     display: flex;
     justify-content: center;
+    text-decoration:none;
+    
 }
 
 .fonctionnement {
