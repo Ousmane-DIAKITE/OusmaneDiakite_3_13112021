@@ -3,10 +3,14 @@ body {
     margin: 0;
     min-width: 375px;
 }
-header
-{
+header {
 display: flex;
-justify-content: center;
+
+}
+
+.logo {
+    justify-content: center;
+    font-size: small;
 }
 
 form {
