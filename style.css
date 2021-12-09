@@ -4,5 +4,6 @@ body {
 logo
 {
     background-color: white;
+    display: flex;
     align-content: center;
 }
