@@ -63,10 +63,10 @@ h1 {
 }
 
 h2 {
-        align-self: center;
+    align-self: center;
 }
 
-.ol {
+.ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
