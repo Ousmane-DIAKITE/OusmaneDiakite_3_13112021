@@ -63,12 +63,13 @@ h2 {
     padding-left: 15px;
 }
 
-.ul {
+.fonctionnement ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-left: 10px;
 }
-.ul .li {
+
+.fonctionnement li {
     border-radius: 15px;
     width: 75%;
     display: flex;
