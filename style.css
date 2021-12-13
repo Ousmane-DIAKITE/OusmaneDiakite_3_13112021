@@ -77,8 +77,12 @@ h2 {
     background-color: #f6f6f6;
     align-items: center;
     padding: 20px;
+    font-weight: bold;
 }
 
-.fonctionnement .i {
-    padding-left: 1em;
+.fonctionnement i {
+    padding-right: 20px;
+    font-size: 1.5rem;
+    color: #777;
+    font-weight: bold;
 }
