@@ -86,3 +86,11 @@ h2 {
     color: #777;
     font-weight: bold;
 }
+
+#restaurant {
+    background-color: #f6f6f6;
+    padding: 1em 1em;
+    max-width: 1660px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
