@@ -91,16 +91,48 @@ h2 {
     background-color: #f6f6f6;
     padding: 1em 1em;
     max-width: 1660px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+
 }
 
-#restaurant {
+h2 {
+    font-weight: 700;
+    margin: 1rem 0;
+}
 
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+#restaurant ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    padding: 0;
+}
+
+#restaurant li {
+list-style: none;
 }
 
 #restaurant img {
     object-fit: cover;
     width: 100%;
     height: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+#restaurant figure {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    margin: 10px 0px 5px 10px;
+    background-color: white;
+    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
+}
+#restaurant p {
+    position: absolute;
 }
