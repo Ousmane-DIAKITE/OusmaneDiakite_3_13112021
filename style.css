@@ -71,17 +71,17 @@ h2 {
 
 .fonctionnement li {
     border-radius: 15px;
-    width: 75%;
+    width: 80%;
     display: flex;
     justify-content: center;
     background-color: #f6f6f6;
     align-items: center;
-    padding: 20px;
+    padding: 25px;
     font-weight: bold;
 }
 
 .fonctionnement i {
-    padding-right: 20px;
+    padding-right: 30px;
     font-size: 1.5rem;
     color: #777;
     font-weight: bold;
