@@ -136,3 +136,6 @@ list-style: none;
 #restaurant p {
     position: absolute;
 }
+#restaurant
+display: flex;
+padding: 0.5em 1em;
