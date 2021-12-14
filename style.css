@@ -112,9 +112,8 @@ a {
 }
 
 #restaurant li {
-list-style: none;
+    
 }
-
 #restaurant img {
     object-fit: cover;
     width: 100%;
@@ -124,18 +123,20 @@ list-style: none;
 }
 
 #restaurant figure {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    border-radius: 30px;
-    margin: 10px 0px 5px 10px;
+    list-style: none;
+    overflow: hidden;
+    margin: 1.5em 0;
+    border-radius: 25px;
     background-color: white;
-    box-shadow: 0 0px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.1);
+    list-style: none;
+
 }
-#restaurant a p {
+
+#restaurant figure a p {
     position: absolute;
 }
+
 #restaurant figcaption {
     display: flex;
     padding: 0.5em 1em;
