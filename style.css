@@ -104,7 +104,9 @@ a {
     text-decoration: none;
     color: black;
 }
-
+figure p {
+    position: relative;
+}
 #restaurant ul {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
@@ -132,12 +134,16 @@ a {
 
 }
 
-#restaurant figure a p {
-    position: absolute;
+h3 {
+    margin: 0;
+}
+
+figcaption p {
+    margin-top: 0.5em;
 }
 
 #restaurant figcaption {
     display: flex;
-    padding: 0.5em 1em;
+    padding: 0.5em 1em 3em;
 }
 
