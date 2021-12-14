@@ -112,7 +112,7 @@ a {
 }
 
 #restaurant li {
-    
+    list-style: none;
 }
 #restaurant img {
     object-fit: cover;
@@ -123,7 +123,6 @@ a {
 }
 
 #restaurant figure {
-    list-style: none;
     overflow: hidden;
     margin: 1.5em 0;
     border-radius: 25px;
