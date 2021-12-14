@@ -144,6 +144,9 @@ figcaption p {
 
 #restaurant figcaption {
     display: flex;
-    padding: 1em 1em 3em;
+    padding: 1em 0.5em 3em 1em;
+}
+label {
+    margin-left: 8em;
 }
 
