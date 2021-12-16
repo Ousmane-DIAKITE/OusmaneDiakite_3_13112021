@@ -63,6 +63,9 @@ h2 {
     padding-left: 15px;
 }
 
+.fonctionnement span {
+    border-radius: 100%;
+}
 .fonctionnement ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
