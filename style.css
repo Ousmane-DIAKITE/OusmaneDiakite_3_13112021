@@ -149,6 +149,14 @@ h3 {
     margin: 0;
 }
 
+.new {
+    position: absolute;
+    padding: 7px 10px;
+    background-color: #99E2D0;
+    border-radius: 5px;
+    color: #2c9c81;
+}
+
 figcaption p {
     margin-top: 0.5em;
 }
