@@ -16,6 +16,10 @@ form {
     background-color: #eaeaea
 }
 
+form label{
+    align-self: center;
+}
+
 .search {
     border: none;
     background-color: #eaeaea;
