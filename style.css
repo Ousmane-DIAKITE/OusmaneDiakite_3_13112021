@@ -147,6 +147,7 @@ figcaption p {
     display: flex;
     padding: 1em 0.5em 3em 1em;
 }
+
 figcaption label {
     margin-left: 8em;
 }
@@ -157,8 +158,16 @@ footer {
     justify-content: center;
     flex-direction: column;
 }
+
 footer h3 {
     font-weight: bolder;
     align-self: center;
     padding: 1.5em;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    color: white;
 }
