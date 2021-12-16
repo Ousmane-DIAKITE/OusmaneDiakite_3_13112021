@@ -155,8 +155,10 @@ footer {
     background: #353535;
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 footer h3 {
-    color: white;
     font-weight: bolder;
+    align-self: center;
+    padding: 1.5em;
 }
