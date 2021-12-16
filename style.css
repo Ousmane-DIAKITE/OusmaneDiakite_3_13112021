@@ -115,6 +115,7 @@ figure p {
 
 #restaurant li {
     list-style: none;
+    margin:10px;
 }
 #restaurant img {
     object-fit: cover;
@@ -146,7 +147,16 @@ figcaption p {
     display: flex;
     padding: 1em 0.5em 3em 1em;
 }
-label {
+figcaption label {
     margin-left: 8em;
 }
 
+footer {
+    background: #353535;
+    display: flex;
+    justify-content: center;
+}
+footer h3 {
+    color: white;
+    font-weight: bolder;
+}
