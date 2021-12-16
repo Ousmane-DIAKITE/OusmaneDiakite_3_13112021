@@ -79,7 +79,7 @@ h2 {
     border-radius: 15px;
     width: 80%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #f6f6f6;
     align-items: center;
     padding: 25px;
