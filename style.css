@@ -66,6 +66,8 @@ h2 {
 .fonctionnement span {
     border-radius: 100%;
     background-color: #9356DC;
+    padding: 7px;
+    color: white;
 }
 .fonctionnement ul {
     display: grid;
