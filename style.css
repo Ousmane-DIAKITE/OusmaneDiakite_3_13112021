@@ -291,3 +291,16 @@ header-food {
     justify-content: flex-end;
     margin: 0 10px 5px;
 }
+
+button {
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(360deg, #9356DC 0%, #FF79DA 100%);
+    color: white;
+    height: 50px;
+    margin: 20px;
+    width: 15%;
+    align-self: center;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
