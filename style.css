@@ -208,8 +208,7 @@ footer i {
 header-food {
     display: flex;
     justify-content: center;
-    height: 34px;
-    font-size: 1.5em;
+    height: 35px;
 }
 
 header-food a {
@@ -217,7 +216,7 @@ header-food a {
     justify-content: center;
 }
 
-header-food i {
+header-food img {
     align-self: center;
     padding-right: 1em;
 }
