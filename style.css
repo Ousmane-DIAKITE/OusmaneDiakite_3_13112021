@@ -216,9 +216,10 @@ header-food a {
     justify-content: center;
 }
 
-header-food img {
+header-food i {
     align-self: center;
-    padding-right: 1em;
+    position: relative;
+    right: 55px;
 }
 
 
