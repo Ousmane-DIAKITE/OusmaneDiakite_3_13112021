@@ -176,6 +176,10 @@ footer {
     flex-direction: column;
 }
 
+footer a {
+    color: white;
+}
+
 footer h3 {
     font-weight: bolder;
     align-self: center;
