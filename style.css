@@ -209,6 +209,7 @@ header-good {
     display: flex;
     justify-content: center;
     height: 34px;
+    font-size: 2em;
 }
 
 header-good a {
@@ -217,5 +218,7 @@ header-good a {
 }
 
 header-good i {
-    
+    align-self: center;
+    padding-right: 1em;
 }
+
