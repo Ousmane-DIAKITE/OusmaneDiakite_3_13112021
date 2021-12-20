@@ -277,6 +277,12 @@ header-food {
     font-size: 1.2em;
 }
 
-liste-food p {
+.liste-food p {
     margin: 0px 0 5px 10px;
+}
+
+.liste-food b {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 10px 10px;
 }
