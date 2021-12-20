@@ -204,3 +204,11 @@ footer i {
 
 /* CSS Page Restaurant
   */
+
+header-good {
+    display: flex;
+    justify-content: center;
+    height: 34px;
+    margin: 10px auto 15px;
+}
+
