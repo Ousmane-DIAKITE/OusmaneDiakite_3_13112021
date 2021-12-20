@@ -205,19 +205,19 @@ footer i {
 /* CSS Page Restaurant
   */
 
-header-good {
+header-food {
     display: flex;
     justify-content: center;
     height: 34px;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
-header-good a {
+header-ood a {
     display: flex;
     justify-content: center;
 }
 
-header-good i {
+header-food i {
     align-self: center;
     padding-right: 1em;
 }
