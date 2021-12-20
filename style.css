@@ -16,10 +16,6 @@ form {
     background-color: #eaeaea
 }
 
-form label{
-    align-self: center;
-}
-
 .search {
     border: none;
     background-color: #eaeaea;
@@ -28,7 +24,7 @@ form label{
 }
 
 .icon-search {
-    margin-top: 15px;
+    align-self: center;
     color: #4f4f4f;
 }
 
@@ -127,6 +123,7 @@ figure p {
     list-style: none;
     margin:10px;
 }
+
 #restaurant img {
     object-fit: cover;
     width: 100%;
@@ -192,7 +189,12 @@ footer ul {
     justify-content: space-around;
     color: white;
 }
+
 footer li {
     color: white;
+}
+
+footer a {
+        padding-right: 0.5em;
 }
 
