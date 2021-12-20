@@ -209,6 +209,13 @@ header-good {
     display: flex;
     justify-content: center;
     height: 34px;
-    margin: 10px auto 15px;
 }
 
+header-good a {
+    display: flex;
+    justify-content: center;
+}
+
+header-good i {
+    
+}
