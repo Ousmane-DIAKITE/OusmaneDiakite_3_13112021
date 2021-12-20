@@ -254,6 +254,10 @@ header-food {
     align-self: center;
 }
 
+.liste-food h2 {
+    margin: 1em;
+}
+
 .liste-food {
     padding-right: 240px;
     padding-left: 200px;
@@ -268,11 +272,12 @@ header-food {
     background-color: white;
     display: flex;
     flex-direction: column;
-    border-radius: 20px;
+    border-radius: 15px;
+    margin-bottom: 15px;
 }
 
 .liste-food h3 {
-    margin: 15px 0 5px 10px;
+    margin: 10px 0 5px 10px;
     font-weight: bold;
     font-size: 1.2em;
 }
@@ -284,5 +289,5 @@ header-food {
 .liste-food b {
     display: flex;
     justify-content: flex-end;
-    margin: 0 10px 10px;
+    margin: 0 10px 5px;
 }
