@@ -221,7 +221,19 @@ header-food {
     right: 55px;
 }
 
-main-header-food {
+.main-food {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding-bottom: 40px;
+}
+
+.main-header-food {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header-food img {
     position: relative;
     object-fit: cover;
     width: 100%;
