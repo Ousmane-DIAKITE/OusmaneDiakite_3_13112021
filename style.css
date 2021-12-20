@@ -240,10 +240,7 @@ header-food {
     height: 300px;
 }
 
-.main-header-food h1 {
-    display: flex;
-    flex-direction: row;
-}
+
 
 .main-header-food div {
     display: flex;
@@ -255,5 +252,10 @@ header-food {
 
 .main-header-food i {
     align-self: center;
+}
+
+.liste-food {
+    padding-right: 240px;
+    padding-left: 200px;
 }
 
