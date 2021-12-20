@@ -240,4 +240,8 @@ header-food {
     height: 300px;
 }
 
+.main-header-food h1 {
+    display: flex;
+    flex-direction: row;
+}
 
