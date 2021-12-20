@@ -255,7 +255,14 @@ header-food {
 }
 
 .liste-food h2 {
-    margin: 1em;
+    margin: 1em 2em;
+    border-bottom: 2px solid #99E2D0;
+    color: black;
+    padding: 5px 0 5px;
+    width: 13%;
+    font-size: 1.3em;
+    font-weight: lighter;
+    text-transform: uppercase;
 }
 
 .liste-food {
