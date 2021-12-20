@@ -245,3 +245,15 @@ header-food {
     flex-direction: row;
 }
 
+.main-header-food div {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 1.7em;
+    font-family: "Shrikhand", cursive;
+}
+
+.main-header-food i {
+    align-self: center;
+}
+
