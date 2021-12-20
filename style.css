@@ -259,3 +259,7 @@ header-food {
     padding-left: 200px;
 }
 
+.liste-food ul {
+    list-style: none;
+    margin: 0;
+}
