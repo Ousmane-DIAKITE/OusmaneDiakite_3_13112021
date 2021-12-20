@@ -270,3 +270,9 @@ header-food {
     flex-direction: column;
     border-radius: 20px;
 }
+
+.liste-food h3 {
+    margin: 15px 0 5px 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
