@@ -274,5 +274,9 @@ header-food {
 .liste-food h3 {
     margin: 15px 0 5px 10px;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 1.2em;
+}
+
+liste-food p {
+    margin: 0px 0 5px 10px;
 }
