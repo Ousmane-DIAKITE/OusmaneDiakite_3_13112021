@@ -213,13 +213,7 @@ header-food {
 
 header-food a {
     display: flex;
-    justify-content: center;
-}
-
-header-food i {
     align-self: center;
-    position: relative;
-    right: 55px;
 }
 
 
