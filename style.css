@@ -152,6 +152,7 @@ h3 {
     background-color: #99E2D0;
     border-radius: 5px;
     color: #2c9c81;
+    margin: 1em 13em;
 }
 
 figcaption p {
@@ -181,10 +182,13 @@ footer a {
 }
 
 footer h3 {
-    font-weight: bolder;
+    font-weight: revert;
     align-self: center;
-    padding: 1.5em;
+    padding: 1em;
     color: white;
+    font-family: "Shrikhand", cursive;
+    font-style: oblique;
+    font-size: 1.6em;
 }
 
 footer ul {
@@ -248,10 +252,12 @@ header-food {
     font-weight: bold;
     font-size: 1.7em;
     font-family: "Shrikhand", cursive;
+    padding-left: 0.6em;
 }
 
 .main-header-food i {
     align-self: center;
+    padding-right: 0.6em;
 }
 
 .liste-food h2 {
