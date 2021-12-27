@@ -339,5 +339,11 @@ button {
     justify-content: space-between;
 }
 
+.main-header-food i {
+    padding-left: 120px;
+}
 
+.main-header-food h1 {
+    padding-right: 110px;
+}
 }
