@@ -329,6 +329,16 @@ button {
 /* CSS Page index Tablette Media
   */
 
+@media screen and (min-width: 768px) {
+
+.fonctionnement i {
+    padding-left: 200px;
+}
+
+.new {
+    margin: 1em 37em;
+}
+}
 
 /* CSS Page Restaurant Tablette Media
   */
@@ -340,10 +350,20 @@ button {
 }
 
 .main-header-food i {
-    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .main-header-food h1 {
-    padding-right: 110px;
+    padding-left: 110px;
 }
+
+.liste-food {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+footer {
+    text-align: center;
+}
+
 }
