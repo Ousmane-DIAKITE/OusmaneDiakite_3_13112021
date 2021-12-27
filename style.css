@@ -229,6 +229,10 @@ header-food {
     right: 55px;
 }
 
+.div h1 {
+    padding-left: 10px;
+}
+
 .main-food {
     display: flex;
     flex-direction: column;
@@ -247,8 +251,6 @@ header-food {
     width: 100%;
     height: 300px;
 }
-
-
 
 .main-header-food div {
     display: flex;
