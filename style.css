@@ -261,7 +261,7 @@ header-food {
     border-top-left-radius: 45px;
     border-top-right-radius: 45px;
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: space-between;
     top: 300px;
 }
 
@@ -321,4 +321,20 @@ button {
     font-size: 1.2em;
     width: 50%;
     height: 50px;
+} 
+
+/* CSS Page index Tablette Media
+  */
+
+
+/* CSS Page Restaurant Tablette Media
+  */
+
+@media screen and (min-width: 768px) {
+
+.main-header-food div {
+    justify-content: space-between;
+}
+
+
 }
