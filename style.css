@@ -229,13 +229,6 @@ header-food {
     right: 55px;
 }
 
-.div h1 {
-    padding-left: 10px;
-}
-
-.div i {
-    padding-right: 20px;
-} 
 .main-food {
     display: flex;
     flex-direction: column;
@@ -270,8 +263,13 @@ header-food {
     top: 300px;
 }
 
+.main-header-food h1 {
+    padding-left: 10px;
+}
+
 .main-header-food i {
     align-self: center;
+    padding-right: 20px;
 }
 
 .liste-food h2 {
