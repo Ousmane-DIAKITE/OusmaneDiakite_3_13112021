@@ -252,11 +252,17 @@ header-food {
 
 .main-header-food div {
     display: flex;
-    justify-content: space-around;
     font-weight: bold;
-    font-size: 1.7em;
+    font-size: 1.1em;
     font-family: "Shrikhand", cursive;
-    padding-left: 0.6em;
+    padding: 0.5em 0 0;
+    position: absolute;
+    background: #F2F2F2;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    width: 100%;
+    justify-content: space-evenly;
+    top: 300px;
 }
 
 .main-header-food i {
