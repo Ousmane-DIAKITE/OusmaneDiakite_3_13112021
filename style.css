@@ -49,9 +49,7 @@ h1 {
     border-radius: 45px;
     background: linear-gradient(#ec73da, #9f5adc);
     padding: 15px 15px 15px;
-    margin: 20px;
-    display: flex;
-    justify-content: center;
+
     text-decoration:none;
     
 }
