@@ -4,10 +4,10 @@ body {
 }
 
 header {
-display: flex;
-justify-content: center;
-height: 34px;
-margin: 10px auto 15px;
+    display: flex;
+    justify-content: center;
+    height: 34px;
+    margin: 10px auto 15px;
 }
 
 form {
@@ -67,6 +67,8 @@ h2 {
     background-color: #9356DC;
     padding: 7px;
     color: white;
+    position: relative;
+    right: 0.7em;
 }
 .fonctionnement ul {
 
@@ -75,13 +77,13 @@ h2 {
 
 .fonctionnement li {
     border-radius: 20px;
-width: 100%;
-display: flex;
-background-color: #f6f6f6;
-align-items: center;
-font-weight: bold;
-height: 70px;
-margin-top: 15px;
+    width: 100%;
+    display: flex;
+    background-color: #f6f6f6;
+    align-items: center;
+    font-weight: bold;
+    height: 70px;
+    margin-top: 15px;
 }
 
 .fonctionnement i {
