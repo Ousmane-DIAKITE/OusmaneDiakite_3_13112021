@@ -207,7 +207,8 @@ footer li {
 }
 
 footer i {
-        padding-right: 0.5em;
+    padding-right: 0.5em;
+    width: 15px;
 }
 
 /* CSS Page Restaurant
