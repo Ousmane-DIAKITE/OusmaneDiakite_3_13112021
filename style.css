@@ -195,8 +195,11 @@ footer h3 {
 footer ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
     color: white;
+    flex-direction: column;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0 1.5em 2em;
 }
 
 footer li {
