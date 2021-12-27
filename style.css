@@ -185,7 +185,7 @@ footer a {
 footer h3 {
     font-weight: revert;
     align-self: center;
-    padding: 1em;
+    padding: 0.8em 0 0.8em 0.8em;
     color: white;
     font-family: "Shrikhand", cursive;
     font-style: oblique;
