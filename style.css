@@ -13,7 +13,8 @@ margin: 10px auto 15px;
 form {
     display: flex;
     justify-content: center;
-    background-color: #eaeaea
+    background-color: #eaeaea;
+    padding-left: 3em;
 }
 
 .search {
