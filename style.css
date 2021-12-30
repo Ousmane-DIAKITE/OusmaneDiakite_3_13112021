@@ -392,9 +392,29 @@ footer {
 }
     
 .new {
-    right: 70px;
+    right: 80px;
 }
     
+}
+
+@media screen and (min-width: 1020px) {
+
+.fonctionnement ul {
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fonctionnement li {
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.fonctionnement i {
+    padding-left: 0em;
+}
+
 }
     
 /* CSS Page Restaurant Tablette Media
