@@ -328,21 +328,6 @@ button {
 
 /* CSS Page index Tablette Media
   */
-@media screen and (min-width: 800px) {
-
-#restaurant ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 0;
-}
-
-.new {
-    right: 70px;
-}
-
-}
 
 @media screen and (min-width: 580px) {
 
@@ -391,6 +376,27 @@ footer {
 
 }
 
+@media screen and (min-width: 800px) {
+
+#restaurant ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+    
+#restaurant figure {
+    width: 335px;
+}
+    
+.new {
+    right: 70px;
+}
+    
+}
+    
 /* CSS Page Restaurant Tablette Media
   */
 
