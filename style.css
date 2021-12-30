@@ -376,6 +376,26 @@ footer {
 
 }
 
+@media screen and (min-width: 920px) {
+
+#restaurant ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+}
+    
+#restaurant figure {
+    width: 335px;
+}
+    
+.new {
+    right: 80px;
+}
+    
+}
 
 @media screen and (min-width: 1020px) {
 
