@@ -331,6 +331,20 @@ button {
 
 @media screen and (min-width: 580px) {
 
+.fonctionnement ul {
+    padding-left: 40px;
+    padding-right: 40px;
+}   
+    
+.fonctionnement i {
+    padding-left: 120px;
+}
+    
+#restaurant ul {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
 .new {
     right: 80px;
 }
