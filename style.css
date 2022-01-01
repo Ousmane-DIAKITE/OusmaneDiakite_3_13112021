@@ -418,7 +418,7 @@ footer {
 #restaurant ul {
     justify-content: space-evenly;
     display: flex;
-    flex-flow: row;
+    flex-flow: wrap;
     
 }
 
