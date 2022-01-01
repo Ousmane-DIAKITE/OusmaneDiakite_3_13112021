@@ -392,7 +392,8 @@ footer {
 }
     
 .new {
-    right: 80px;
+    right: auto;
+    margin: 10px 0 0 235px;
 }
     
 }
