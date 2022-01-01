@@ -374,7 +374,9 @@ button {
 footer {
     text-align: center;
 }
-
+.fonctionnement li:hover {
+    transform: scale(1.05);
+}
 }
 
 @media screen and (min-width: 920px) {
