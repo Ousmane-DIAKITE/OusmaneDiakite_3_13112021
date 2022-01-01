@@ -377,6 +377,9 @@ footer {
 .fonctionnement li:hover {
     transform: scale(1.05);
 }
+#restaurant li:hover {
+    transform: scale(1.05);
+}
 }
 
 @media screen and (min-width: 920px) {
