@@ -417,15 +417,11 @@ footer {
 }
 #restaurant ul {
     justify-content: space-evenly;
+    display: flex;
 }
 
 }
 
-@media screen and (min-width: 1020px) { 
-.fonctionnement ul {
-    
-}
-}
 /* CSS Page Restaurant Tablette Media
   */
 
