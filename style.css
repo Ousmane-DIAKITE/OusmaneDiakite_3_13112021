@@ -400,6 +400,7 @@ footer {
 @media screen and (min-width: 1020px) {
 
 .fonctionnement ul {
+    padding: 0;
     padding-left: 10px;
     display: flex;
     flex-direction: row;
@@ -422,7 +423,7 @@ footer {
 
 @media screen and (min-width: 1020px) { 
 .fonctionnement ul {
-    padding: 0;
+    
 }
 }
 /* CSS Page Restaurant Tablette Media
