@@ -435,7 +435,9 @@ footer {
 /* Hover Page Restaurant */
 
 .link-restaurant:hover {
-    opacity: 0.8;
+    opacity: 0.9;
+    box-shadow: 0px 10px 20px 0px #bbb;
+    transform: scale(1);
 }
 
 /* CSS Page Restaurant Tablette Media
