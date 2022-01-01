@@ -380,6 +380,9 @@ footer {
 #restaurant li:hover {
     transform: scale(1.05);
 }
+.new:hover {
+    right: 15px;
+}
 }
 
 @media screen and (min-width: 920px) {
