@@ -382,7 +382,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     padding-left: 0;
     padding-right: 0;
 }
