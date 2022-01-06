@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Shrikhand', cursive;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 34px;
+    margin: 10px auto 15px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    background-color: #eaeaea;
+    padding-left: 3em;
+}
+
+.search {
+    border: none;
+    background-color: #eaeaea;
+    font-weight: bold;
+    margin: 15px 15px 15px;
+}
+
+.icon-search {
+    align-self: center;
+    color: #4f4f4f;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F2F2F2;
+    padding: 1em 0 1em;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 0.67em 0;
+    font-weight: bold;
+}
+
+.link-restaurant {
+    color: white;
+    border-radius: 45px;
+    background: linear-gradient(#ec73da, #9f5adc);
+    padding: 15px 15px 15px;
+    align-self: center;
+    text-decoration:none;
+    box-shadow: 0px 6px 10px 0px rgb(214, 213, 213); 
+}
+
+.fonctionnement {
+    padding: 1em 1em;
+}
+
+h2 {
+    margin: 1.5em 0 0;
+}
+
+.fonctionnement span {
+    border-radius: 100%;
+    background-color: #9356DC;
+    width: 25px;
+    color: white;
+    position: relative;
+    right: 0.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+}
+.fonctionnement ul {
+
+    padding-left: 10px;
+}
+
+.fonctionnement li {
+    border-radius: 20px;
+    width: 100%;
+    display: flex;
+    background-color: #f6f6f6;
+    align-items: center;
+    font-weight: bold;
+    height: 70px;
+    margin-top: 15px;
+    box-shadow: 6px 6px 10px 2px rgb(230, 230, 230);
+}
+
+.fonctionnement i {
+    padding: 0 17px 0;
+    font-size: 1.5rem;
+    color: #777;
+    font-weight: bold;
+}
+
+.link-restaurant {
+    background-color: #f6f6f6;
+    padding: 1em 1em 1.3em;
+    max-width: 1600px;
+
+}
+
+h2 {
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+figure p {
+    position: absolute;
+}
+.link-restaurant ul {
+    padding: 0;
+}
+
+.link-restaurant li {
+    list-style: none;
+    margin:10px;
+}
+
+.link-restaurant img {
+    object-fit: cover;
+    width: 100%;
+    height: 175px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.link-restaurant figure {
+    overflow: hidden;
+    margin: 1.5em 0;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.1);
+    list-style: none;
+
+}
+
+h3 {
+    margin: 0;
+}
+
+.new {
+    position: absolute;
+    padding: 7px 10px;
+    background-color: #99E2D0;
+    border-radius: 5px;
+    color: #2c9c81;
+    right: 45px;
+}
+
+figcaption p {
+    margin-top: 0.5em;
+}
+
+.link-restaurant figcaption {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+figcaption label {
+    margin-left: 8em;
+}
+
+footer {
+    background: #353535;
+    display: flex;
+    flex-direction: column;
+}
+
+footer a {
+    color: white;
+}
+
+footer h3 {
+    font-weight: revert;
+    padding: 0.8em 0 0.8em 0.8em;
+    color: white;
+    font-family: "Shrikhand", cursive;
+    font-style: oblique;
+    font-size: 1.6em;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    line-height: 1.5rem;
+    margin: 0;
+    padding: 0 1.5em 2em;
+}
+
+footer li {
+    color: white;
+}
+
+footer i {
+    padding-right: 0.5em;
+    width: 15px;
+}
+
+/* CSS Page Restaurant
+  */
+
+header-food {
+    display: flex;
+    justify-content: center;
+    height: 35px;
+}
+
+.header-food a {
+    display: flex;
+    align-self: center;
+}
+
+.header-food i {
+    position: relative;
+    right: 55px;
+}
+
+.main-food {
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding-bottom: 40px;
+}
+
+.main-header-food {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header-food img {
+    position: relative;
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.main-header-food div {
+    display: flex;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: "Shrikhand", cursive;
+    padding: 0.5em 0 0;
+    position: absolute;
+    background: #F2F2F2;
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+    width: 100%;
+    justify-content: space-between;
+    top: 300px;
+}
+
+.main-header-food h1 {
+    padding-left: 10px;
+}
+
+.main-header-food i {
+    align-self: center;
+    padding-right: 20px;
+}
+
+.list-food h2 {
+    margin: 10px 10px;
+    border-bottom: 2px solid #99E2D0;
+    color: black;
+    padding: 0.8em 0 0.2em;
+    width: 15%;
+    font-size: 1.3em;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.list-food ul {
+    list-style: none;
+    margin: 0;
+    padding: 0 0.6em;
+}
+
+.list-food li {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.list-food h3 {
+    margin: 10px 0 5px 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.list-food p {
+    margin: 0px 0 5px 10px;
+}
+
+.list-food b {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 10px 5px;
+}
+
+button {
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(360deg, #9356DC 0%, #FF79DA 100%);
+    color: white;
+    margin: 20px;
+    align-self: center;
+    font-weight: bolder;
+    font-size: 1.2em;
+    width: 50%;
+    height: 50px;
+} 
+
+/* CSS Page index Tablette Media
+  */
+
+@media screen and (min-width: 576px) {
+
+.fonctionnement ul {
+    padding-left: 40px;
+    padding-right: 40px;
+}   
+    
+.fonctionnement i {
+    padding-left: 120px;
+}
+    
+.link-restaurant ul {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.new {
+    right: 80px;
+}
+
+}
+
+@media screen and (min-width: 768px) {
+
+.fonctionnement ul {
+    padding-left: 70px;
+    padding-right: 70px;
+}   
+
+.fonctionnement i {
+    padding-left: 200px;
+}
+
+.link-restaurant ul {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.new {
+    right: 110px;
+}
+footer {
+    text-align: center;
+}
+.fonctionnement li:hover {
+    transform: scale(1.05);
+}
+.link-restaurant li:hover {
+    transform: scale(1.05);
+}
+.new:hover {
+    transform: scale(1.05);
+}
+}
+
+@media screen and (min-width: 920px) {
+
+.link-restaurant ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 0;
+    padding-right: 0;
+}
+    
+.link-restaurant figure {
+    width: 335px;
+}
+    
+.new {
+    right: auto;
+    margin: 10px 0 0 235px;
+}
+    
+}
+
+@media screen and (min-width: 1020px) {
+
+.fonctionnement ul {
+    padding: 0;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fonctionnement li {
+    margin-right: 25px;
+    margin-top: 25px;
+}
+
+.fonctionnement i {
+    padding-left: 0em;
+}
+.link-restaurant ul {
+    justify-content: space-evenly;
+    display: flex;
+    flex-flow: wrap;
+    
+}
+
+.link-restaurant figure {
+    width: 300px;
+}
+.new {
+    margin: 10px 0 0 200px;
+    right: auto;
+}
+}
+
+/* Hover Page Restaurant */
+
+.link-restaurant:hover {
+    opacity: 0.9;
+    box-shadow: 0px 10px 20px 0px #bbb;
+    transform: scale(1);
+}
+
+/* CSS Page Restaurant Tablette Media
+  */
+
+@media screen and (min-width: 768px) {
+
+.main-header-food div {
+    justify-content: space-between;
+}
+
+.main-header-food i {
+    padding-right: 120px;
+}
+
+.main-header-food h1 {
+    padding-left: 110px;
+}
+
+.list-food {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+footer {
+    text-align: center;
+}
+
+}

@@ -1,78 +1,106 @@
 <!DOCTYPE html>
 <html lang="fr">
+    <!-- En-tete de la page -->
     <head>
-        <!-- En-tete de la page -->
-        <meta charset="utf-8" />
-        <meta name="description"  content="Template to start HTML">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <title>Ohmyfood!</title>
+
         <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" as="style">
         <link rel="preload" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" as="style">
-        <link rel="preload" href="css/style.css" as="style">
+        <link rel="preload" href="style.css" as="style">
+
+        <meta name="description" content="OC DW P3 - Ohmyfood!">
+
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <header>
-                <img src="MaquettesOhmyfood\images\logo\ohmyfood.png" alt="logo" class="logo"/>
+            <img src="images/logo/ohmyfood.png" alt="logo" class="logo">
         </header>
+        
         <main>
             <form>
-                <label>
+                <label class="icon-search">
                     <i class="fas fa-map-marker-alt"></i>
                 </label>
-                <input class="search" type="search"  name="search"  placeholder="Ville, quartier">
+                <input class="search" type="search"  name="search"  placeholder="Paris, Belleville">
             </form>
-            <section>
+
+            <section class="presentation">
                 <h1>Réservez le menu qui vous convient</h1>
                 <p>Découvrez des restaurants d'exception séléctionnées par nos soins</p>
-                <button class="choix-restau" type="button">Explorez nos restaurants</button>
+                <a href="#restaurant" class="link-food">Explorez nos restaurants</a>
             </section>
-            <section>
+
+            <section class="fonctionnement">
                 <h2>Fonctionnement</h2>
-                <ol>
-                    <li><i class="fas fa-mobile-alt"></i>Choisissez un restaurant</li>
-                    <li><i class="fas fa-list-ul"></i>Composez votre menu</li>
-                    <li><i class="fas fa-store"></i>Dégustez au restaurant</li>
-                </ol>
+                <ul>
+                    <li>
+                        <span>1</span>
+                        <i class="fas fa-mobile-alt"></i>
+                        Choisissez un restaurant
+                    </li>
+                    <li>
+                        <span>2</span>
+                        <i class="fas fa-list-ul"></i>
+                        Composez votre menu
+                    </li>
+                    <li>
+                        <span>3</span>
+                        <i class="fas fa-store"></i>
+                        Dégustez au restaurant
+                    </li>
+                </ul>
             </section>
-            <article>
+
+            <article id="restaurant">
                 <h2>Restaurants</h2>
                 <ul>
                     <li>
                         <figure>
-                            <p>Nouveau</p>
-                            <img src="MaquettesOhmyfood\images\restaurants\jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Photo d'un plat du restaurant La palette du goût à Paris Ménilmontant"/>
+                            <a href="views/la-palette-du-gout.html">
+                                <p class="new">Nouveau</p>
+                                <img src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Photo d'un plat du restaurant La palette du goût à Paris Ménilmontant"/>
+                            </a>
                             <figcaption>
-                                <h3>La palette du goût</h3>
-                                <p>Menilmontant</p>
-                                <label>
+                                <a href="views/la-palette-du-gout.html">
+                                    <h3>La palette du goût</h3>
+                                    <p>Menilmontant</p>
+                                </a>
                                     <i class="far fa-heart"></i>
-                                </label>
                             </figcaption>
                         </figure>
                     </li>
                     <li>
                         <figure>
-                            <p>Nouveau</p>
-                            <img src="Maquettes Ohmyfood\images\restaurants\stil-u2Lp8tXIcjw-unsplash.jpg" alt="Photo d'un plat du restaurant La note enchantée à Paris Charonne"/>
+                            <a href="views/la-note-enchantee.html">
+                                <p class="new">Nouveau</p>
+                                <img src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="Photo d'un plat du restaurant La note enchantée à Paris Charonne"/>    
+                            </a>
                             <figcaption>
-                                <h3>La note enchantée</h3>
-                                <p>Charonne</p>
-                                <label>
+                                <a href="views/la-note-enchantee.html">
+                                    <h3>La note enchantée</h3>
+                                    <p>Charonne</p>
+                                </a>                            
                                     <i class="far fa-heart"></i>
-                                </label>
                             </figcaption>
                         </figure>
                     </li>
                     <li>    
                         <figure>
-                            <p>Nouveau</p>
-                            <img src="MaquettesOhmyfood\images\restaurants\toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Photo d'un plat du restaurant À la française à Paris Cité rouge"/>
+                            <a href="views/a-la-francaise.html">
+                                <img src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Photo d'un plat du restaurant À la française à Paris Cité rouge"/>
+                            </a>
                             <figcaption>
-                                <h3>À la française</h3>
-                                <p>Cité rouge</p>
+                                <a href="views/a-la-francaise.html">
+                                    <h3>À la française</h3>
+                                    <p>Cité rouge</p>
+                                </a>
                                 <label>
                                     <i class="far fa-heart"></i>
                                 </label>
@@ -81,27 +109,47 @@
                     </li>
                     <li>
                         <figure>
-                            <p>Nouveau</p>
-                            <img src="MaquettesOhmyfood\images\restaurants\louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Photo d'un plat du restaurant Le délice des sens à Folie-Méricourt"/>
+                            <a href="views/le-delice-des-sens.html">
+                                <img src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Photo d'un plat du restaurant Le délice des sens à Folie-Méricourt"/>
+                            </a>   
                             <figcaption>
-                                <h3>Le délice des sens</h3>
-                                <p>Folie-Méricourt</p>
-                                <label>
+                                <a href="views/le-delice-des-sens.html">
+                                    <h3>Le délice des sens</h3>
+                                    <p>Folie Méricourt</p>
+                                </a>
                                     <i class="far fa-heart"></i>
-                                </label>
                             </figcaption>
                         </figure>
                     </li>
                 </ul>
             </article>
         </main>
+
         <footer>
             <h3>ohmyfood</h3>
             <ul>
-                <li><i class="fas fa-utensils"></i><a href="#" class="footer-link">Proposer un restaurant</a></li>
-                <li><i class="fas fa-hands-helping"></i><a href="#" class="footer-link">Devenir partenaire</a></li>
-                <li><a href="#" class="footer-link">Mentions légales</a></li>
-                <li><a href="mailto:#" class="footer-link">Contact</a></li>
+                <li>
+                    <a href="#" class="footer-link">
+                        <i class="fas fa-utensils"></i>
+                        Proposer un restaurant
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">
+                        <i class="fas fa-hands-helping"></i>
+                        Devenir partenaire
+                    </a>    
+                </li>
+                <li>
+                    <a href="#" class="footer-link">
+                        Mentions légales
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:#" class="footer-link">
+                        Contact
+                    </a>
+                </li>
             </ul>
         </footer>
     </body>
