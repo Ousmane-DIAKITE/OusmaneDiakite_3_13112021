@@ -98,7 +98,7 @@ h2 {
     font-weight: bold;
 }
 
-#restaurant {
+.link-restaurant {
     background-color: #f6f6f6;
     padding: 1em 1em 1.3em;
     max-width: 1600px;
@@ -118,16 +118,16 @@ a {
 figure p {
     position: absolute;
 }
-#restaurant ul {
+.link-restaurant ul {
     padding: 0;
 }
 
-#restaurant li {
+.link-restaurant li {
     list-style: none;
     margin:10px;
 }
 
-#restaurant img {
+.link-restaurant img {
     object-fit: cover;
     width: 100%;
     height: 175px;
@@ -135,7 +135,7 @@ figure p {
     border-top-left-radius: 10px;
 }
 
-#restaurant figure {
+.link-restaurant figure {
     overflow: hidden;
     margin: 1.5em 0;
     border-radius: 10px;
@@ -162,7 +162,7 @@ figcaption p {
     margin-top: 0.5em;
 }
 
-#restaurant figcaption {
+.link-restaurant figcaption {
     display: flex;
     justify-content: space-between;
     padding: 15px;
@@ -273,7 +273,7 @@ header-food {
     padding-right: 20px;
 }
 
-.liste-food h2 {
+.list-food h2 {
     margin: 10px 10px;
     border-bottom: 2px solid #99E2D0;
     color: black;
@@ -284,13 +284,13 @@ header-food {
     text-transform: uppercase;
 }
 
-.liste-food ul {
+.list-food ul {
     list-style: none;
     margin: 0;
     padding: 0 0.6em;
 }
 
-.liste-food li {
+.list-food li {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -298,17 +298,17 @@ header-food {
     margin-bottom: 15px;
 }
 
-.liste-food h3 {
+.list-food h3 {
     margin: 10px 0 5px 10px;
     font-weight: bold;
     font-size: 1.1em;
 }
 
-.liste-food p {
+.list-food p {
     margin: 0px 0 5px 10px;
 }
 
-.liste-food b {
+.list-food b {
     display: flex;
     justify-content: flex-end;
     margin: 0 10px 5px;
@@ -341,7 +341,7 @@ button {
     padding-left: 120px;
 }
     
-#restaurant ul {
+.link-restaurant ul {
     padding-left: 40px;
     padding-right: 40px;
 }
@@ -363,7 +363,7 @@ button {
     padding-left: 200px;
 }
 
-#restaurant ul {
+.link-restaurant ul {
     padding-left: 70px;
     padding-right: 70px;
 }
@@ -377,7 +377,7 @@ footer {
 .fonctionnement li:hover {
     transform: scale(1.05);
 }
-#restaurant li:hover {
+.link-restaurant li:hover {
     transform: scale(1.05);
 }
 .new:hover {
@@ -387,7 +387,7 @@ footer {
 
 @media screen and (min-width: 920px) {
 
-#restaurant ul {
+.link-restaurant ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -396,7 +396,7 @@ footer {
     padding-right: 0;
 }
     
-#restaurant figure {
+.link-restaurant figure {
     width: 335px;
 }
     
@@ -425,14 +425,14 @@ footer {
 .fonctionnement i {
     padding-left: 0em;
 }
-#restaurant ul {
+.link-restaurant ul {
     justify-content: space-evenly;
     display: flex;
     flex-flow: wrap;
     
 }
 
-#restaurant figure {
+.link-restaurant figure {
     width: 300px;
 }
 .new {
@@ -466,7 +466,7 @@ footer {
     padding-left: 110px;
 }
 
-.liste-food {
+.list-food {
     padding-left: 100px;
     padding-right: 100px;
 }
