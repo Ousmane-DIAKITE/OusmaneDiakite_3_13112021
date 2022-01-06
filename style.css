@@ -333,7 +333,7 @@ button {
 /* CSS Page index Tablette Media
   */
 
-@media screen and (min-width: 580px) {
+@media screen and (min-width: 576px) {
 
 .fonctionnement ul {
     padding-left: 40px;
