@@ -317,13 +317,14 @@ header-food {
 }
 
 .conteneur-icon {
+    border-radius: 0 12px 12px 0;
     background-color: #99E2D0;
     width: 3em;
     margin-right: -3em;
     overflow: hidden;
 }
 .conteneur-icon:hover {
-    
+
     margin-right: 0;
 }
 button {
