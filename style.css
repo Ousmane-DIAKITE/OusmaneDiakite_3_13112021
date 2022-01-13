@@ -497,6 +497,10 @@ footer {
     padding-right: 100px;
 }
 
+button {
+    width: 20%;
+}
+
 footer {
     text-align: center;
 }
