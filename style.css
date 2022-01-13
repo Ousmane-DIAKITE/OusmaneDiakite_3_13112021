@@ -316,7 +316,9 @@ header-food {
 }
 
 .conteneur-icon {
-    background-color: #99E2D0
+    background-color: #99E2D0;
+    padding: 1em;
+
 }
 button {
     border: none;
