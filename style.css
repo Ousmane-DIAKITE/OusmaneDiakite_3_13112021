@@ -231,6 +231,9 @@ header-food {
 .header-food i {
     position: relative;
     right: 55px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .main-food {
@@ -271,9 +274,16 @@ header-food {
     padding-left: 10px;
 }
 
-.main-header-food i {
+.heart {
     align-self: center;
     padding-right: 20px;
+    font-size: 2em;
+    transition: 0.5s;
+}
+
+.heart:hover {
+    background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
+
 }
 
 .list-food h2 {
@@ -296,9 +306,9 @@ header-food {
 .list-food li {
     background-color: white;
     display: flex;
-    flex-direction: column;
     border-radius: 15px;
     margin-bottom: 15px;
+    align-items: center;
 }
 
 .list-food h3 {
@@ -314,8 +324,14 @@ header-food {
 .list-food b {
     display: flex;
     justify-content: flex-end;
-    margin: 0 10px 5px;
+    margin-left: auto;
+    padding: 2em 1.3em 0px;
+    
 }
+
+
+
+
 
 button {
     border: none;
@@ -407,7 +423,8 @@ footer {
     right: auto;
     margin: 10px 0 0 235px;
 }
-    
+
+
 }
 
 @media screen and (min-width: 1020px) {
@@ -425,14 +442,14 @@ footer {
     margin-top: 25px;
 }
 
-.fonctionnement i {
+.fonctionnement i {   
     padding-left: 0em;
 }
-.link-restaurant ul {
+
+#restaurant ul {
     justify-content: space-evenly;
     display: flex;
     flex-flow: wrap;
-    
 }
 
 .link-restaurant figure {
@@ -474,8 +491,36 @@ footer {
     padding-right: 100px;
 }
 
+button {
+    width: 20%;
+}
+
 footer {
     text-align: center;
 }
 
+.conteneur-icon:hover {
+
+    margin-right: 0;
+}
+
+.conteneur-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 12px 12px 0;
+    background-color: #99E2D0;
+    width: 3em;
+    margin-right: -3em;
+    overflow: hidden;
+    color: white;
+    transition: margin-right 0.5s;
+    padding: 1.3em 1em;
+
+}
+
+.conteneur-icon i {
+    font-size: 2em;
+    overflow: hidden;
+}
 }
