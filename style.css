@@ -312,6 +312,7 @@ header-food {
     display: flex;
     justify-content: flex-end;
     margin-left: auto;
+    padding: 1em;
 }
 
 .conteneur-icon {
