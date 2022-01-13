@@ -313,11 +313,12 @@ header-food {
     justify-content: flex-end;
     margin-left: auto;
     padding: 1em;
+    
 }
 
 .conteneur-icon {
     background-color: #99E2D0;
-    padding: 1em;
+    padding: 2em 1em 0;
 
 }
 button {
