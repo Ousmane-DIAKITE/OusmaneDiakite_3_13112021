@@ -295,6 +295,7 @@ header-food {
     display: flex;
     border-radius: 15px;
     margin-bottom: 15px;
+    align-items: center;
 }
 
 .liste-food h3 {
