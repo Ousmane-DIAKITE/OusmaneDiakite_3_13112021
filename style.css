@@ -228,6 +228,9 @@ header-food {
 .header-food i {
     position: relative;
     right: 55px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
 .main-food {
