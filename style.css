@@ -271,6 +271,7 @@ header-food {
 .main-header-food i {
     align-self: center;
     padding-right: 20px;
+    font-size: 2em;
 }
 
 .liste-food h2 {
