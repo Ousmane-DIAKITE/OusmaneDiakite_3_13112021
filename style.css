@@ -314,13 +314,13 @@ header-food {
     margin-left: auto;
     padding: 2em 1.3em 0px;
     
-    
 }
 
 .conteneur-icon {
     background-color: #99E2D0;
-
-    margin-right: -2em;
+    padding: 1em;
+    margin-right: -4em;
+    
 }
 button {
     border: none;
