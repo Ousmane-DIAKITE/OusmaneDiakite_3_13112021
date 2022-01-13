@@ -326,28 +326,10 @@ header-food {
     
 }
 
-.conteneur-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0 12px 12px 0;
-    background-color: #99E2D0;
-    width: 3em;
-    margin-right: -3em;
-    overflow: hidden;
-    color: white;
-    transition: margin-right 0.5s;
-    padding: 1.3em 1em;
 
-}
-.conteneur-icon i {
-    font-size: 2em;
-}
 
-.conteneur-icon:hover {
 
-    margin-right: 0;
-}
+
 button {
     border: none;
     border-radius: 50px;
@@ -438,7 +420,8 @@ footer {
     right: auto;
     margin: 10px 0 0 235px;
 }
-    
+
+
 }
 
 @media screen and (min-width: 1020px) {
@@ -514,4 +497,28 @@ footer {
     text-align: center;
 }
 
+.conteneur-icon:hover {
+
+    margin-right: 0;
+}
+
+.conteneur-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 12px 12px 0;
+    background-color: #99E2D0;
+    width: 3em;
+    margin-right: -3em;
+    overflow: hidden;
+    color: white;
+    transition: margin-right 0.5s;
+    padding: 1.3em 1em;
+
+}
+
+.conteneur-icon i {
+    font-size: 2em;
+    overflow: hidden;
+}
 }
