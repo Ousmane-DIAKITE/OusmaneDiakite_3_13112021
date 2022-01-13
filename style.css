@@ -330,6 +330,10 @@ header-food {
     padding: 1.3em 0.7em;
 
 }
+.conteneur-icon i {
+    font-size: 2em;
+}
+
 .conteneur-icon:hover {
 
     margin-right: 0;
