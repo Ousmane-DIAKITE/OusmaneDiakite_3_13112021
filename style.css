@@ -320,7 +320,7 @@ header-food {
     background-color: #99E2D0;
     padding: 1em;
     margin-right: -4em;
-    
+    overflow: hidden;
 }
 button {
     border: none;
