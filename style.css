@@ -318,9 +318,13 @@ header-food {
 
 .conteneur-icon {
     background-color: #99E2D0;
-    padding: 1em;
-    margin-right: -4em;
+    width: 3em;
+    margin-right: -3em;
     overflow: hidden;
+}
+.conteneur-icon:hover {
+    
+    margin-right: 0;
 }
 button {
     border: none;
