@@ -268,14 +268,16 @@ header-food {
     padding-left: 10px;
 }
 
-.main-header-food i {
+.heart {
     align-self: center;
     padding-right: 20px;
     font-size: 2em;
+    transition: 0.5s;
 }
 
-.main-header-food i :hover {
+.heart:hover {
     background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
+
 }
 
 .liste-food h2 {
@@ -332,7 +334,7 @@ header-food {
     overflow: hidden;
     color: white;
     transition: margin-right 0.5s;
-    padding: 1.3em 0.7em;
+    padding: 1.3em 1em;
 
 }
 .conteneur-icon i {
