@@ -311,7 +311,7 @@ header-food {
 .liste-food b {
     display: flex;
     justify-content: flex-end;
-    margin: 0 10px 5px;
+    margin-left: auto;
 }
 
 button {
@@ -422,9 +422,10 @@ footer {
     margin-top: 25px;
 }
 
-.fonctionnement i {
+.fonctionnement i {   
     padding-left: 0em;
 }
+
 #restaurant ul {
     justify-content: space-evenly;
     display: flex;
