@@ -326,6 +326,9 @@ header-food {
     margin-right: -3em;
     overflow: hidden;
     color: white;
+    transition: margin-right 0.5s;
+    padding: 1.3em 0.7em;
+
 }
 .conteneur-icon:hover {
 
