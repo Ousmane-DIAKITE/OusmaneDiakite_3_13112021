@@ -415,7 +415,15 @@ footer {
     margin: 10px 0 0 235px;
 }
 
-
+.fonctionnement li:hover {
+    transform: scale(1.05);
+}
+.link-restaurant li:hover {
+    transform: scale(1.05);
+}
+.new:hover {
+    transform: scale(1.05);
+}
 }
 
 @media screen and (min-width: 1020px) {
@@ -449,6 +457,15 @@ footer {
 .new {
     margin: 10px 0 0 200px;
     right: auto;
+}
+.fonctionnement li:hover {
+    transform: scale(1.05);
+}
+.link-restaurant li:hover {
+    transform: scale(1.05);
+}
+.new:hover {
+    transform: scale(1.05);
 }
 }
 
