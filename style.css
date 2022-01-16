@@ -321,7 +321,18 @@ header-food {
 }
 
 
+.conteneur-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 12px 12px 0;
+    background: #99E2D0;
+    margin-right: -3em;
+    transition: margin-right 0.5s;
+    padding: 0.4em 0.5em 0.9em;
+    overflow: hidden;
 
+}
 
 
 button {
@@ -529,6 +540,11 @@ footer {
 
 .conteneur-icon i {
     font-size: 2em;
-    overflow: hidden;
+    transition-duration: 1s;
+
 }
+.conteneur-icon i:hover {
+    rotate: 1 -0.5 1 180deg;
+}
+
 }
