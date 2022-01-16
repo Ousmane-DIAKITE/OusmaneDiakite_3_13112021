@@ -519,7 +519,7 @@ footer {
 }
 
 .conteneur-icon:hover {
-
+    background-color: #99E2D0;
     margin-right: 0;
 }
 
@@ -528,7 +528,7 @@ footer {
     justify-content: center;
     align-items: center;
     border-radius: 0 12px 12px 0;
-    background-color: #99E2D0;
+    
     width: 3em;
     margin-right: -3em;
     overflow: hidden;
@@ -540,7 +540,7 @@ footer {
 
 .conteneur-icon i {
     font-size: 2em;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
     transition-property: transform;
 }
 .conteneur-icon i:hover {
