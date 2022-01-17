@@ -533,6 +533,7 @@ list-food b:hover {
     font-size: 1em;
     transition-duration: 0.5s;
     transition-property: transform;
+    width: 0;
     overflow: hidden;
 }
 .conteneur-icon i:hover {
