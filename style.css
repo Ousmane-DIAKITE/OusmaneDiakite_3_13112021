@@ -514,9 +514,10 @@ footer {
 }
 
 .list-food b {
-    padding: 2em 1.8em 0px;
+    padding: 2em 3.8em 0;
     transform: 0.2s;
 }
+
 list-food b:hover {
 
 }
@@ -528,7 +529,6 @@ list-food b:hover {
     background: #99E2D0;
     margin-right: -3em;
     transition: margin-right 0.5s;
-    padding: 1em;
     overflow: hidden;
 
 }
