@@ -1,7 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-family: 'Shrikhand', cursive;
     margin: 0;
 }
 
@@ -44,6 +44,7 @@ h1 {
     font-size: 1.5em;
     margin: 0.67em 0;
     font-weight: bold;
+    font-family: 'Shrikhand', cursive;
 }
 
 
@@ -321,18 +322,7 @@ header-food {
 }
 
 
-.conteneur-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0 12px 12px 0;
-    background: #99E2D0;
-    margin-right: -3em;
-    transition: margin-right 0.5s;
-    padding: 0.4em 0.5em 0.9em;
-    overflow: hidden;
 
-}
 
 
 button {
@@ -518,34 +508,36 @@ footer {
     text-align: center;
 }
 
-.conteneur-icon:hover {
-    background-color: #99E2D0;
-    margin-right: 0;
+.list-food b {
+    padding: 2em 0.3em;
+    transform: 0.2s;
 }
+list-food b:hover {
 
+}
 .conteneur-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0 12px 12px 0;
-    
-    width: 3em;
+    background: #99E2D0;
     margin-right: -3em;
-    overflow: hidden;
-    color: white;
     transition: margin-right 0.5s;
-    padding: 1.3em 1em;
+    padding: 1em;
+    overflow: hidden;
 
 }
 
 .conteneur-icon i {
-    font-size: 2em;
+    color:white;
+    font-size: 1em;
     transition-duration: 0.5s;
     transition-property: transform;
+    overflow: hidden;
 }
 .conteneur-icon i:hover {
     transform: rotate(360deg);
-
+    font-size: 2em;
 }
 
 }
