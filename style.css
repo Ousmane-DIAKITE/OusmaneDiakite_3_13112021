@@ -310,7 +310,7 @@ header-food {
 }
 
 .list-food p {
-    margin: 0px 0 5px 10px;
+    margin: 0 0 10px 10px;
 }
 
 .list-food b {
@@ -321,9 +321,14 @@ header-food {
     
 }
 
-
-
-
+.conteneur-icon i {
+    color:white;
+    font-size: 1em;
+    transition-duration: 0.5s;
+    transition-property: transform;
+    width: 0;
+    overflow: hidden;
+}
 
 button {
     border: none;
@@ -528,14 +533,7 @@ list-food b:hover {
 
 }
 
-.conteneur-icon i {
-    color:white;
-    font-size: 1em;
-    transition-duration: 0.5s;
-    transition-property: transform;
-    width: 0;
-    overflow: hidden;
-}
+
 .conteneur-icon i:hover {
     transform: rotate(360deg);
     font-size: 2em;
