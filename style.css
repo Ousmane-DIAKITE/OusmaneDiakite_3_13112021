@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-family: 'Shrikhand', cursive;
     margin: 0;
 }
 
@@ -45,17 +44,10 @@ h1 {
     font-size: 1.5em;
     margin: 0.67em 0;
     font-weight: bold;
+    font-family: 'Shrikhand', cursive;
 }
 
-.link-restaurant {
-    color: white;
-    border-radius: 45px;
-    background: linear-gradient(#ec73da, #9f5adc);
-    padding: 15px 15px 15px;
-    align-self: center;
-    text-decoration:none;
-    box-shadow: 0px 6px 10px 0px rgb(214, 213, 213); 
-}
+
 
 .fonctionnement {
     padding: 1em 1em;
@@ -271,12 +263,12 @@ header-food {
 }
 
 .main-header-food h1 {
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 .heart {
     align-self: center;
-    padding-right: 20px;
+    padding-right: 25px;
     font-size: 2em;
     transition: 0.5s;
 }
@@ -303,12 +295,14 @@ header-food {
     padding: 0 0.6em;
 }
 
+
 .list-food li {
     background-color: white;
     display: flex;
     border-radius: 15px;
     margin-bottom: 15px;
     align-items: center;
+    animation: amination-menu 5s;
 }
 
 .list-food h3 {
@@ -318,20 +312,25 @@ header-food {
 }
 
 .list-food p {
-    margin: 0px 0 5px 10px;
+    margin: 0 0 10px 10px;
 }
 
 .list-food b {
     display: flex;
     justify-content: flex-end;
     margin-left: auto;
-    padding: 2em 1.3em 0px;
+    padding: 2em 0.8em 0px;
     
 }
 
-
-
-
+.conteneur-icon i {
+    color:white;
+    font-size: 1em;
+    transition-duration: 0.5s;
+    transition-property: transform;
+    width: 0;
+    overflow: hidden;
+}
 
 button {
     border: none;
@@ -424,7 +423,15 @@ footer {
     margin: 10px 0 0 235px;
 }
 
-
+.fonctionnement li:hover {
+    transform: scale(1.05);
+}
+.link-restaurant li:hover {
+    transform: scale(1.05);
+}
+.new:hover {
+    transform: scale(1.05);
+}
 }
 
 @media screen and (min-width: 1020px) {
@@ -453,11 +460,20 @@ footer {
 }
 
 .link-restaurant figure {
-    width: 300px;
+    width: 310px;
 }
 .new {
     margin: 10px 0 0 200px;
     right: auto;
+}
+.fonctionnement li:hover {
+    transform: scale(1.05);
+}
+.link-restaurant li:hover {
+    transform: scale(1.05);
+}
+.new:hover {
+    transform: scale(1.05);
 }
 }
 
@@ -499,28 +515,50 @@ footer {
     text-align: center;
 }
 
-.conteneur-icon:hover {
-
-    margin-right: 0;
+.list-food b {
+    
 }
 
+
 .conteneur-icon {
+
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0 12px 12px 0;
-    background-color: #99E2D0;
+    background: #99E2D0;
+overflow: hidden;
+    height: 4em;
     width: 3em;
     margin-right: -3em;
-    overflow: hidden;
-    color: white;
-    transition: margin-right 0.5s;
-    padding: 1.3em 1em;
-
+transition: all 0.5s;
+visibility: hidden;
 }
+.conteneur-icon:hover {
+    
+    margin-right: 0;
+    width: 4em;
+     }
+
+
 
 .conteneur-icon i {
     font-size: 2em;
-    overflow: hidden;
+    color: white;
 }
+.conteneur-icon i:hover {
+    
+    transform: rotate(360deg);
+
+}
+
+@keyframes amination-menu {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
 }
