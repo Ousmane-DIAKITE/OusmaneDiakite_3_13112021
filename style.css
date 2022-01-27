@@ -521,22 +521,26 @@ list-food b:hover {
 
 }
 .conteneur-icon {
+
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0 12px 12px 0;
     background: #99E2D0;
-
-    transition: margin-right 0.5s;
-    overflow: hidden;
-
-}
-
-.conteneur-icon:hover {
-    width: 75px;
-    height: 65px;
+overflow: hidden;
+    height: 4em;
+    width: 3em;
     margin-right: -3em;
+transition: all 0.5s;
+visibility: hidden;
 }
+.conteneur-icon:hover {
+    
+    margin-right: 0;
+    width: 4em;
+     }
+
+
 
 .conteneur-icon i {
     font-size: 2em;
