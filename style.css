@@ -295,12 +295,14 @@ header-food {
     padding: 0 0.6em;
 }
 
+
 .list-food li {
     background-color: white;
     display: flex;
     border-radius: 15px;
     margin-bottom: 15px;
     align-items: center;
+    animation: amination-menu 5s;
 }
 
 .list-food h3 {
@@ -517,9 +519,7 @@ footer {
     
 }
 
-list-food b:hover {
 
-}
 .conteneur-icon {
 
     display: flex;
@@ -552,6 +552,13 @@ visibility: hidden;
 
 }
 
-
+@keyframes amination-menu {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
 }
