@@ -533,11 +533,12 @@ overflow: hidden;
     margin-right: -3em;
     animation : move-up 1s;
 visibility: hidden;
+transition: all 1s;
 }
 .conteneur-icon:hover {
-    
+    width: 65px;
     margin-right: 0;
-    width: 4em;
+    
      }
 
 
