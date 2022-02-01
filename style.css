@@ -515,8 +515,8 @@ footer {
     text-align: center;
 }
 
-.list-food b {
-    
+.list-food ul {
+    animation : move-up 1s;
 }
 
 
@@ -531,9 +531,9 @@ overflow: hidden;
     height: 4em;
     width: 3em;
     margin-right: -3em;
-    animation : move-up 1s;
+    
 visibility: hidden;
-transition: all 1s;
+
 }
 .conteneur-icon:hover {
     width: 65px;
