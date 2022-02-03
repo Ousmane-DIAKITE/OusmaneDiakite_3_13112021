@@ -544,11 +544,11 @@ footer {
     border-radius: 100px;
     color: white;
     font-size: 2em;
-    transition-duration: .5s;
+    animation: rotation;
 }
 .conteneur-icon-check:hover {
     
-    transform: rotate(0);
+    animation: rotation 5s ease-in-out(1);
 
 }
 
