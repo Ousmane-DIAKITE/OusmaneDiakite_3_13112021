@@ -559,7 +559,7 @@ footer {
     to {
       transform: rotate(360deg);
     }
-
+}
 @keyframes move-up {
     0% {
       transform: translateY(20px);
