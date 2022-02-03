@@ -548,15 +548,17 @@ footer {
 }
 .conteneur-icon-check:hover {
     
-    @keyframes rotation {
-        from {
-          transform: rotate(0);
-        }
-        to {
-          transform: rotate(360deg);
-        }
+
 
 }
+
+@keyframes rotation {
+    from {
+      transform: rotate(0);
+    }
+    to {
+      transform: rotate(360deg);
+    }
 
 @keyframes move-up {
     0% {
