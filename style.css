@@ -528,8 +528,8 @@ footer {
     border-radius: 0 12px 12px 0;
     background: #99E2D0;
     cursor: pointer;
-    height: 0;
-    width: 0;
+    height: 4em;
+    width: 4em;
     margin-right: 0;
 
     transition-duration: .5s;
