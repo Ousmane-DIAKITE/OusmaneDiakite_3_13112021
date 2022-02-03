@@ -7,12 +7,12 @@ body {
  /* Creation du loeder */
 .loader {
 
-    width:150px;
-    height:150px;
-    border-radius: 50%;
+    width:100px;
+    height:100px;
+
     -webkit-animation: spin 3s linear infinite ;
     -o-animation: spin 3s linear infinite;
-    animation: spin 3s linear infinite;
+    animation: spin 2s;
     /*placement*/
     margin: auto;
     position: absolute;
@@ -21,13 +21,18 @@ body {
 
 .fa-spinner {
     color: #9356DC;
+    font-size: 2em;
 }
 @-webkit-keyframes spin {
     0%{
         -webkit-transform: rotate(0deg);
     }
-    100%{
+    75%{
         -webkit-transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(360deg);
+        opacity: 0;
     }
 }
 
@@ -35,8 +40,12 @@ body {
     0%{
         transform: rotate(0deg);
     }
+    75%{
+        transform: rotate(360deg);
+    }
     100%{
         transform: rotate(360deg);
+        opacity: 0;
     }
 }
 header {
