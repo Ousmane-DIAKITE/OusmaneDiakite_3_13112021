@@ -601,5 +601,9 @@ footer {
     }
   }
     
-
+  @keyframes loader {
+      0% {
+          opacity: 1;
+      }
+  }
 }
