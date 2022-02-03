@@ -6,13 +6,9 @@ body {
 }
  /* Creation du loeder */
 .loader {
-    border: 10px solid grey;
-    border-top:black;
-    border-bottom: red;
-    border-left: green;
-    border-right: hotpink;
-    width:100px;
-    height:100px;
+
+    width:150px;
+    height:150px;
     border-radius: 50%;
     -webkit-animation: spin 3s linear infinite ;
     -o-animation: spin 3s linear infinite;
@@ -23,6 +19,9 @@ body {
     top: 0; bottom: 0; right: 0; left: 0;
 }
 
+.fa-spinner {
+    color: #9356DC;
+}
 @-webkit-keyframes spin {
     0%{
         -webkit-transform: rotate(0deg);
