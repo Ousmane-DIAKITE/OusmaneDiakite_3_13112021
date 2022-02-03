@@ -536,8 +536,8 @@ footer {
     
 }
 .conteneur-icon:hover {
-overflow: hidden;
-    width: 0;
+    height: 4em;
+    width: 4rem;
     margin-right: -1rem;
     
      }
