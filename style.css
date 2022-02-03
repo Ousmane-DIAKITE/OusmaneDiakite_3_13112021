@@ -516,7 +516,7 @@ footer {
 }
 
 .list-food ul {
-    animation : move-up 1s;
+   
 }
 
 
@@ -527,13 +527,13 @@ footer {
     align-items: center;
     border-radius: 0 12px 12px 0;
     background: #99E2D0;
-    overflow: hidden;
+    cursor: pointer;
     height: 4em;
     width: 4rem;
     margin-right: -3em;
     margin: -1rem -5rem -1rem 1rem;
     transition-duration: .5s;
-
+    overflow: hidden;
 }
 .conteneur-icon:hover {
 
