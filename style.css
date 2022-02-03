@@ -323,14 +323,6 @@ header-food {
     
 }
 
-.conteneur-icon i {
-    color:white;
-    font-size: 1em;
-    transition-duration: 0.5s;
-    transition-property: transform;
-    width: 0;
-    overflow: hidden;
-}
 
 button {
     border: none;
@@ -505,6 +497,7 @@ footer {
 .list-food {
     padding-left: 100px;
     padding-right: 100px;
+    overflow: hidden;
 }
 
 button {
@@ -516,7 +509,8 @@ footer {
 }
 
 .list-food ul {
-   
+    overflow: hidden;
+    cursor: pointer;
 }
 
 
@@ -536,8 +530,7 @@ footer {
     
 }
 .conteneur-icon:hover {
-    height: 4em;
-    width: 4rem;
+
     margin-right: -3rem;
     
      }
@@ -550,6 +543,7 @@ footer {
     justify-content: center;
     border-radius: 100px;
     color: white;
+    font-size: 2em;
     transition-duration: .5s;
 }
 .conteneur-icon-check:hover {
