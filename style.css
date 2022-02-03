@@ -543,11 +543,11 @@ footer {
 
 
 
-.conteneur-icon i {
+.conteneur-icon-check {
     font-size: 2em;
     color: white;
 }
-.conteneur-icon i:hover {
+.conteneur-icon-check:hover {
     
     transform: rotate(360deg);
 
