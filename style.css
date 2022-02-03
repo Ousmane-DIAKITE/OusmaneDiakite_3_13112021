@@ -532,12 +532,12 @@ footer {
     width: 4rem;
     margin-right: -3em;
     margin: -1rem -5rem -1rem 1rem;
-
+    transition-duration: .5s;
 
 }
 .conteneur-icon:hover {
-    width: 65px;
-    margin-right: 0;
+
+    margin-right: -1rem;
     
      }
 
