@@ -428,6 +428,19 @@ footer {
 
 @media screen and (min-width: 1020px) {
 
+.heart {
+    position: relative;
+    z-index: 1;
+} 
+
+.heart-bg {
+    z-index: -1;
+    position: absolute;
+    background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
+    cursor: pointer;
+
+}
+
 .fonctionnement ul {
     padding: 0;
     padding-left: 10px;
