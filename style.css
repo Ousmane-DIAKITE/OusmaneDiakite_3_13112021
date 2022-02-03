@@ -527,12 +527,12 @@ footer {
     align-items: center;
     border-radius: 0 12px 12px 0;
     background: #99E2D0;
-overflow: hidden;
+    overflow: hidden;
     height: 4em;
     width: 3em;
     margin-right: -3em;
-    
-visibility: hidden;
+    margin: -1rem -5rem -1rem 1rem;
+
 
 }
 .conteneur-icon:hover {
