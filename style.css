@@ -544,7 +544,10 @@ footer {
 
 
 .conteneur-icon-check {
-    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
     color: white;
 }
 .conteneur-icon-check:hover {
