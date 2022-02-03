@@ -525,13 +525,13 @@ footer {
     height: 4em;
     width: 4em;
     margin-right: 0;
-
-    transition-duration: .5s;
+    margin: -1rem -5rem -1rem 1rem;
+    transition-duration: 1.5s;
     
 }
 .conteneur-icon:hover {
 
-    margin-right: -3rem;
+    margin-right: 0rem;
     
      }
 
@@ -548,7 +548,7 @@ footer {
 }
 .conteneur-icon-check:hover {
     
-    transform: rotate(360deg);
+    transform: rotate(0);
 
 }
 
