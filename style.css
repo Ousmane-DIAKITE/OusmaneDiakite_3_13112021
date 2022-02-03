@@ -4,7 +4,42 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+ /* Creation du loeder */
+.loader {
+    border: 10px solid grey;
+    border-top:black;
+    border-bottom: red;
+    border-left: green;
+    border-right: hotpink;
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    -webkit-animation: spin 3s linear infinite ;
+    -o-animation: spin 3s linear infinite;
+    animation: spin 3s linear infinite;
+    /*placement*/
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; right: 0; left: 0;
+}
 
+@-webkit-keyframes spin {
+    0%{
+        -webkit-transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 header {
     display: flex;
     justify-content: center;
@@ -601,13 +636,5 @@ footer {
     }
   }
     
-  @keyframes loader {
-      0% {
-          opacity: 1;
-      }
-      100% {
-          opacity: 0;
-          z-index: 5;
-      }
-  }
+
 }
