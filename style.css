@@ -46,7 +46,7 @@ body {
     height: 100vh; 
     top: 0; bottom: 0; left: 0; right: 0;
     z-index: 2;
-    animation: hide 3s 5s forwards;
+    animation: hide 2s 4s forwards;
     transform-origin: top;
 }
 
