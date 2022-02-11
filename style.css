@@ -46,7 +46,7 @@ body {
     height: 100vh; 
     top: 0; bottom: 0; left: 0; right: 0;
     z-index: 2;
-    animation: hide 2s 4s forwards;
+    animation: hide 1s 3s forwards;
     transform-origin: top;
 }
 
@@ -319,17 +319,33 @@ header-food {
     padding-left: 15px;
 }
 
-.heart {
-    align-self: center;
-    padding-right: 25px;
-    font-size: 2em;
-    transition: 0.5s;
+.fa-heart {
+    position: relative;
+    z-index: 1;
+}
+.fa-heart:hover {
+    opacity: 0;
 }
 
-.heart:hover {
+.heart-bg {
+    color: transparent;
+    position: absolute;
+    left: 0;
+    top: 0;
     background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
-
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transform: scale(0);
 }
+
+.fa-heart:hover .heart-bg {
+    transform: scale(1);
+    opacity: 1;
+    z-index: 1;
+  }
 
 .list-food h2 {
     margin: 10px 10px;
@@ -437,9 +453,7 @@ button {
 footer {
     text-align: center;
 }
-.fonctionnement li:hover {
-    transform: scale(1.05);
-}
+
 .link-restaurant li:hover {
     transform: scale(1.05);
 }
@@ -481,18 +495,6 @@ footer {
 
 @media screen and (min-width: 1020px) {
 
-.heart {
-    position: relative;
-    z-index: 1;
-} 
-
-.heart-bg {
-    z-index: -1;
-    position: absolute;
-    background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
-    cursor: pointer;
-
-}
 
 .fonctionnement ul {
     padding: 0;
