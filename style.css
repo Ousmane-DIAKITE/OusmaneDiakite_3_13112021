@@ -320,53 +320,51 @@ header-food {
 }
 
 .fa-heart:hover {
-    opacity: 0;
-    /*
-    background-color: red;
-    transition: background-color 1s;
+    opacity: 1;
+    background-color: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
+    transition: background-color 0.5s;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: scale 1s;
-    */
 }
 
 
 .fa-heart {
-    transition: 1s;
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    
 }
 /*
 .fa-heart:hover {
     opacity: 0;
 }
 */
-.heart-bg {
-    opacity: 0;
+.heart-bg:hover {
+
     color: transparent;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
-    transition: all 0.5s ease-in-out;
+    background-color: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
     cursor: pointer;
     background-clip: text;
     -webkit-background-clip: text;
-    transform: scale(0);
+
 }
 
-.fa-heart:hover .heart-bg {
-    transform: scale(1.5);
-    opacity: 0;
+.heart-bg {
+    
+    cursor: pointer;
+    transition: opacity 0.3s;
+    transition: background-color 0.5s;
     color: transparent;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
-    transition: all 0.5s ease-in-out;
+    background-color: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
     cursor: pointer;
     background-clip: text;
     -webkit-background-clip: text;
-    transform: scale(0);
+}
+.fa-heart:hover .heart-bg {
+    transform: scale(1.5);
+    opacity: 1;
   }
 
 .list-food h2 {
