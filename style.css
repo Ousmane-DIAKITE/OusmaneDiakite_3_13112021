@@ -320,30 +320,33 @@ header-food {
 }
 
 .fa-heart:hover {
+    opacity: 0;
+    /*
     background-color: red;
     transition: background-color 1s;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: scale 1s;
+    */
 }
 
-/*
+
 .fa-heart {
-    position: relative;
-    z-index: 1;
+    transition: 1s;
 }
+/*
 .fa-heart:hover {
     opacity: 0;
 }
 
 .heart-bg {
+    opacity: 0;
     color: transparent;
     position: absolute;
     left: 0;
     top: 0;
     background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
-    opacity: 0;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
     background-clip: text;
