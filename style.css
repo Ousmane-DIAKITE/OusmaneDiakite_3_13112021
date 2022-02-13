@@ -319,6 +319,16 @@ header-food {
     padding-left: 15px;
 }
 
+.fa-heart:hover {
+    background-color: red;
+    transition: background-color 1s;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: scale 1s;
+}
+
+/*
 .fa-heart {
     position: relative;
     z-index: 1;
@@ -340,11 +350,10 @@ header-food {
     -webkit-background-clip: text;
     transform: scale(0);
 }
-
+*/
 .fa-heart:hover .heart-bg {
-    transform: scale(1);
-    opacity: 1;
-    z-index: 1;
+    transform: scale(1.5);
+
   }
 
 .list-food h2 {
