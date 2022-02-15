@@ -319,7 +319,7 @@ header-food {
     padding-left: 15px;
 }
 
-.far-heart:hover {
+.far:hover {
     background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
     background-clip: border-box;
     cursor: pointer;
@@ -328,7 +328,7 @@ header-food {
 }
 
 
-.far-heart {
+.far {
    font-size: 2em;
     cursor: pointer;
     position: relative;
