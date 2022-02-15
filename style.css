@@ -346,8 +346,8 @@ header-food {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: scale 0.3s ease;
-
+    transition: scale 1.3s cubic-bezier(.6,.04,.98,.34);
+    
 }
 
 .heart-bg:hover {
@@ -358,11 +358,8 @@ header-food {
     -webkit-background-clip: text;
     transform: scale(1);
     opacity: 1;
-
   }
-.heart:hover .heart-bg {
-    
-}
+
 .list-food h2 {
     margin: 10px 10px;
     border-bottom: 2px solid #99E2D0;
