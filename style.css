@@ -340,7 +340,7 @@ header-food {
 
     opacity: 0;
     position: absolute;
-    right: 15px;
+    right: 0px;
     cursor: pointer;
     background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
     background-clip: text;
