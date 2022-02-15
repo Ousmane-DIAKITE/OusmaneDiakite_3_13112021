@@ -356,7 +356,7 @@ header-food {
     cursor: pointer;
     background-clip: text;
     -webkit-background-clip: text;
-    transform: scale(1);
+    transform: scale(1.2);
     opacity: 1;
   }
 
