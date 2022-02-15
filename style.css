@@ -346,8 +346,7 @@ header-food {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: color 0.3s ease;
-    transition: scale 0.3s;
+    transition: scale 0.3s ease;
 
 }
 
@@ -361,7 +360,9 @@ header-food {
     opacity: 1;
 
   }
-
+.heart:hover .heart-bg {
+    
+}
 .list-food h2 {
     margin: 10px 10px;
     border-bottom: 2px solid #99E2D0;
