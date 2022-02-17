@@ -327,8 +327,11 @@ header-food {
     -webkit-text-fill-color: transparent;
 }
 
+.far-restaurant {
+    color: red;
+}
 
-.far {
+.far  {
    font-size: 2em;
     cursor: pointer;
     position: relative;
@@ -583,6 +586,9 @@ footer {
 }
 
 
+.main-header-food far {
+    bottom: -15px;
+}
 
 button {
     width: 15%;
