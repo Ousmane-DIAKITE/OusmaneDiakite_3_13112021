@@ -326,6 +326,7 @@ header-food {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 label {
     position: relative;
     top: 15px;
