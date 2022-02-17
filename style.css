@@ -326,6 +326,11 @@ header-food {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+label {
+
+    position: relative;
+
+}
 
 label .fas {
     position: absolute;
@@ -336,7 +341,6 @@ label .fas {
    font-size: 2em;
     cursor: pointer;
     position: relative;
-
 }
 
 
