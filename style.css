@@ -327,9 +327,8 @@ header-food {
     -webkit-text-fill-color: transparent;
 }
 label {
-
     position: relative;
-
+    top: 15px;
 }
 
 label .fas {
