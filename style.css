@@ -344,7 +344,6 @@ label .fas {
 
 
 .heart-bg {
-
     opacity: 0;
     position: absolute;
     right: 0px;
@@ -353,8 +352,7 @@ label .fas {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: scale 1.3s cubic-bezier(.6,.04,.98,.34);
-    
+    transition: scale 1.3s cubic-bezier(.6,.04,.98,.34); 
 }
 
 .heart-bg:hover {
