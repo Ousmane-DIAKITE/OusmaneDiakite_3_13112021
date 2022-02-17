@@ -319,7 +319,7 @@ header-food {
     padding-left: 15px;
 }
 
-.far:hover
+.far:hover,
 .far:focus {
     background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
     background-clip: border-box;
@@ -356,7 +356,7 @@ label .fas {
     transition: scale 1.3s cubic-bezier(.6,.04,.98,.34); 
 }
 
-.heart-bg:hover
+.heart-bg:hover,
 .heart-bg:focus {
 
     background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
@@ -428,13 +428,13 @@ label .fas {
 
 }
 
-.list-food li:hover .conteneur-icon
+.list-food li:hover .conteneur-icon,
 .list-food:focus .conteneur-icon {
     width: 6em;
 
     }
 
-.conteneur-icon-check:hover .fa-check-circle
+.conteneur-icon-check:hover .fa-check-circle,
 .conteneur-icon-check:focus .fa-check-circle {
 
     transform: rotate(360deg);
@@ -514,7 +514,7 @@ footer {
     text-align: center;
 }
 
-.link-restaurant li:hover
+.link-restaurant li:hover,
 .link-restaurant li:focus{
     transform: scale(1.05);
 }
@@ -544,15 +544,14 @@ footer {
     margin: 10px 0 0 235px;
 }
 
-.fonctionnement li:hover
-.fonctionnement li:focus {
+.fonctionnement li:hover {
     transform: scale(1.05);
 }
-.link-restaurant li:hover
+.link-restaurant li:hover,
 .link-restaurant li:focus {
     transform: scale(1.05);
 }
-.new:hover
+.new:hover,
 .new:focus {
     transform: scale(1.05);
 }
@@ -666,13 +665,13 @@ footer {
 
 
 
-.button:hover
+.button:hover,
 .button:focus {
     background-color: white;
     box-shadow: 0.25em 0.25em 10px rgba(0, 0, 0, 0.5)
 }
 
-.heart-bg:hover
+.heart-bg:hover,
 .heart-bg:focus {
 
     background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
