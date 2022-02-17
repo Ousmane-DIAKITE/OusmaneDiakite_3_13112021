@@ -327,8 +327,9 @@ header-food {
     -webkit-text-fill-color: transparent;
 }
 
-label .far {
-    color: red;
+label .faS {
+    position: absolute;
+    right: 10px;
 }
 
 .far  {
