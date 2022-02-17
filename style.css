@@ -353,7 +353,7 @@ label .fas {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: transform 2s cubic-bezier(0.6, 0.04, 0.98, 0.34); 
+     
 }
 
 .heart-bg:hover,
@@ -365,6 +365,7 @@ label .fas {
     -webkit-background-clip: text;
     transform: scale(1.2);
     opacity: 1;
+    transition: transform 2s, opacity 2s;
 }
 
 .list-food h2 {
@@ -424,7 +425,7 @@ label .fas {
     width: 0;
     transition:width 4s cubic-bezier(.19,1,.22,1);
     overflow: hidden;
-    transition: rotation 5s cubic-bezier(.19,1,.22,1);
+    
 
 }
 
@@ -436,7 +437,7 @@ label .fas {
 
 .conteneur-icon-check:hover .fa-check-circle,
 .conteneur-icon-check:focus .fa-check-circle {
-
+    transition: rotation 5s cubic-bezier(.19,1,.22,1);
     transform: rotate(360deg);
 }
 
@@ -671,23 +672,5 @@ footer {
     box-shadow: 0.25em 0.25em 10px rgba(0, 0, 0, 0.5)
 }
 
-.heart-bg:hover,
-.heart-bg:focus {
-
-    background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
-    cursor: pointer;
-    background-clip: text;
-    -webkit-background-clip: text;
-    transform: scale(1.2);
-    opacity: 1;
-}
-
-.far:hover {
-    background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
-    background-clip: border-box;
-    cursor: pointer;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}    
 
 }
