@@ -319,7 +319,8 @@ header-food {
     padding-left: 15px;
 }
 
-.far:hover {
+.far:hover
+.far:focus {
     background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
     background-clip: border-box;
     cursor: pointer;
@@ -355,7 +356,8 @@ label .fas {
     transition: scale 1.3s cubic-bezier(.6,.04,.98,.34); 
 }
 
-.heart-bg:hover {
+.heart-bg:hover
+.heart-bg:focus {
 
     background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
     cursor: pointer;
@@ -390,6 +392,8 @@ label .fas {
     margin-bottom: 15px;
     align-items: center;
     animation: amination-menu 5s;
+    transition-duration:margin-right 2s;
+    cursor: pointer;
 }
 
 .list-food h3 {
@@ -408,6 +412,42 @@ label .fas {
     margin-left: auto;
     padding: 2em 0.8em 0px;
     
+}
+.conteneur-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 12px 12px 0;
+    background: #99E2D0;
+    cursor: pointer;
+    height: 4em;
+    width: 0;
+    transition:width 4s ease-in-out;
+    overflow: hidden;
+
+}
+.list-food li:hover .conteneur-icon {
+    width: 6em;
+    
+     }
+
+
+
+.conteneur-icon-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    color: white;
+    font-size: 2em;
+    
+}
+
+.conteneur-icon-check:hover
+.conteneur-icon-check:focus {
+    
+    animation: rotation 5s ease-in-out;
+
 }
 
 
@@ -472,10 +512,12 @@ footer {
     text-align: center;
 }
 
-.link-restaurant li:hover {
+.link-restaurant li:hover
+.link-restaurant li:focus{
     transform: scale(1.05);
 }
-.new:hover {
+.new:hover
+.new:focus {
     transform: scale(1.05);
 }
 }
@@ -617,44 +659,7 @@ footer {
     animation: move-up 5s 0.5s ease-in-out both;
 }
 
-.conteneur-icon {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0 12px 12px 0;
-    background: #99E2D0;
-    cursor: pointer;
-    height: 4em;
-    width: 4em;
-    margin-right: 0;
-    margin: -1rem -5rem -1rem 1rem;
-    transition-duration: 1.5s;
-    
-}
-.conteneur-icon:hover,
-.conteneur-icon:focus {
-
-    margin-right: 0;
-    
-     }
-
-
-
-.conteneur-icon-check {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 100px;
-    color: white;
-    font-size: 2em;
-    
-}
-.conteneur-icon-check:hover {
-    
-    animation: rotation 5s ease-in-out;
-
-}
 
 .button:hover {
     background-color: white;
