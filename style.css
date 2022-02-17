@@ -326,7 +326,6 @@ header-food {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
 label {
     position: relative;
     top: 15px;
@@ -366,7 +365,7 @@ label .fas {
     -webkit-background-clip: text;
     transform: scale(1.2);
     opacity: 1;
-  }
+}
 
 .list-food h2 {
     margin: 10px 10px;
@@ -664,7 +663,22 @@ footer {
     box-shadow: 0.25em 0.25em 10px rgba(0, 0, 0, 0.5)
 }
 
+.heart-bg:hover {
 
-    
+    background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
+    cursor: pointer;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+.far:hover {
+    background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
+    background-clip: border-box;
+    cursor: pointer;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}    
 
 }
