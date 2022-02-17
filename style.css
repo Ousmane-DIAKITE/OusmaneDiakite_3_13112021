@@ -353,7 +353,7 @@ label .fas {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: scale 1.3s cubic-bezier(.6,.04,.98,.34); 
+    transition: transform 2s cubic-bezier(0.6, 0.04, 0.98, 0.34); 
 }
 
 .heart-bg:hover,
