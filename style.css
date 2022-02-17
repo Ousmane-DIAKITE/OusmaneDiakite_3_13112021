@@ -413,7 +413,7 @@ label .fas {
     padding: 2em 0.8em 0px;
     
 }
-.conteneur-icon {
+.conteneur-icon  {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -422,15 +422,21 @@ label .fas {
     cursor: pointer;
     height: 4em;
     width: 0;
-    transition:width 4s ease-in-out;
+    transition:width 4s cubic-bezier(.19,1,.22,1);
     overflow: hidden;
+    transition: rotation 5s cubic-bezier(.19,1,.22,1);
 
 }
+
 .list-food li:hover .conteneur-icon {
     width: 6em;
-    
-     }
 
+    }
+
+.conteneur-icon-check:hover .fa-check-circle {
+
+    transform: rotate(360deg);
+}
 
 
 .conteneur-icon-check {
@@ -443,12 +449,6 @@ label .fas {
     
 }
 
-.conteneur-icon-check:hover
-.conteneur-icon-check:focus {
-    
-    animation: rotation 5s ease-in-out;
-
-}
 
 
 button {
