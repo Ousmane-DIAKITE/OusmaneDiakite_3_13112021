@@ -582,14 +582,7 @@ footer {
     animation: move-up 5s ease-in-out both
 }
 
-.div .heart-bg {
-    position: absolute;
-    right: -10px;
-}
 
-.div .heart {
-    bottom: -15px;
-}
 
 button {
     width: 15%;
