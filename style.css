@@ -332,22 +332,18 @@ label {
     top: 15px;
 }
 
-label .fas {
-    position: absolute;
-    right: -12px;
-}
 
 .far  {
    font-size: 2em;
-    cursor: pointer;
-    position: relative;
+   cursor: pointer;
+   z-index: 1;
+
 }
 
 
 .heart-bg {
     opacity: 0;
-    position: absolute;
-    right: 0px;
+    z-index: 2;
     cursor: pointer;
     background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
     background-clip: text;
@@ -619,9 +615,7 @@ footer {
     justify-content: space-between;
 }
 
-.main-header-food i {
-    padding-right: 120px;
-}
+
 
 .main-header-food h1 {
     padding-left: 110px;
