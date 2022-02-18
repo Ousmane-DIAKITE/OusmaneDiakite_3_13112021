@@ -12,10 +12,13 @@
 }
 
 @keyframes rotation {
-    from {
+    0% {
       transform: rotate(0);
     }
-    to {
+    50%{
+        transform: rotate(180deg);
+    }
+    100% {
       transform: rotate(360deg);
     }
 }
@@ -423,20 +426,19 @@ h1 + .far {
     width: 0;
     transition:width 4s cubic-bezier(.19,1,.22,1);
     overflow: hidden;
-    
+    animation: rotation 5s cubic-bezier(.19,1,.22,1);
 
 }
 
 .list-food li:hover .conteneur-icon,
 .list-food:focus .conteneur-icon {
     width: 6em;
-
     }
 
-.conteneur-icon-check:hover .fa-check-circle,
-.conteneur-icon-check:focus .fa-check-circle {
-    transition: rotation 5s cubic-bezier(.19,1,.22,1);
-    transform: rotate(360deg);
+.conteneur-icon-check:hover .conteneur-icon-check > .fa-check-circle,
+.conteneur-icon:focus .conteneur-icon-check > .fa-check-circle {
+    opacity: 1;
+    animation: rotation 5s cubic-bezier(.19,1,.22,1);
 }
 
 
@@ -447,7 +449,7 @@ h1 + .far {
     border-radius: 100px;
     color: white;
     font-size: 2em;
-    
+    animation: rotation 1s cubic-bezier(.19,1,.22,1);
 }
 
 
