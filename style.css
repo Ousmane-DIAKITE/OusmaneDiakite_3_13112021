@@ -327,9 +327,10 @@ header-food {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-label {
+h1 + .far {
     position: relative;
     top: 15px;
+    right: 6.5em;
 }
 
 
