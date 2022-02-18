@@ -356,7 +356,6 @@ label {
 
 .heart-bg:hover,
 .heart-bg:focus {
-
     background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
     cursor: pointer;
     background-clip: text;
