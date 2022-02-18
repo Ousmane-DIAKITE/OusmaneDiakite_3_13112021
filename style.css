@@ -336,8 +336,8 @@ label {
 .far  {
    font-size: 2em;
    cursor: pointer;
+   position: relative;
    z-index: 1;
-
 }
 
 
@@ -349,7 +349,9 @@ label {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-     
+     position: absolute;
+     top:0;
+     left: 0;
 }
 
 .heart-bg:hover,
