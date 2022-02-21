@@ -422,8 +422,8 @@ h1 + .far {
     width: 6em;
     }
 
-.conteneur-icon-check:hover .fa-check-circle,
-.conteneur-icon:focus .fa-check-circle {
+.conteneur-icon:hover .conteneur-icon-check > .fa-check-circle,
+.conteneur-icon:focus .conteneur-icon-check > .fa-check-circle {
     opacity: 1;
     transition: 0.5s ease-in-out;
     transform: rotate(360deg);
@@ -454,8 +454,16 @@ button {
     font-size: 1.2em;
     width: 50%;
     height: 50px;
+    transition: 0.2s ease-in;
 } 
+button:hover,
+button:focus {
+    transform: translateY(-1px);
+    transition: 0.2s ease-in;
+    opacity: 0.8;
+    box-shadow: 0.25em 0.25em 10px rgba(0, 0, 0, 0.5)
 
+}
 /* CSS Page index Tablette Media
   */
 
@@ -655,7 +663,7 @@ footer {
 
 .button:hover,
 .button:focus {
-    background-color: white;
+    opacity: 0.8;
     box-shadow: 0.25em 0.25em 10px rgba(0, 0, 0, 0.5)
 }
 
