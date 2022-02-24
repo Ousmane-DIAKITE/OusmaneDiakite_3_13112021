@@ -58,6 +58,7 @@ body {
     color: #9356DC;
 }
 
+/* fin du loeder */
 
 header {
     display: flex;
@@ -100,8 +101,6 @@ h1 {
     font-weight: bold;
     font-family: 'Shrikhand', cursive;
 }
-
-
 
 .fonctionnement {
     padding: 1em 1em;
@@ -151,7 +150,6 @@ h2 {
     background-color: #f6f6f6;
     padding: 1em 1em 1.3em;
     max-width: 1600px;
-
 }
 
 h2 {
@@ -191,7 +189,6 @@ figure p {
     background-color: white;
     box-shadow: 0 5px 5px 0 rgba(0,0,0,.1);
     list-style: none;
-
 }
 
 h3 {
