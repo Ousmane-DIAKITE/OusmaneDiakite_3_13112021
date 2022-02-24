@@ -430,7 +430,7 @@ h1 + .far {
 
 .list-food li:hover .conteneur-icon,
 .list-food:focus .conteneur-icon {
-    width: 6em;
+    width: 4em;
     }
 
 .list-food li:hover .conteneur-icon-check > .fa-check-circle,
