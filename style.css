@@ -453,7 +453,6 @@ h1 + .far {
 }
 
 
-
 button {
     border: none;
     border-radius: 50px;
@@ -462,10 +461,10 @@ button {
     margin: 20px;
     align-self: center;
     font-weight: bolder;
-    font-size: 1.2em;
-    width: 50%;
+    font-size: 1em;
     height: 50px;
     transition: 0.2s ease-in;
+    padding: 0 20px 0 20px;
 } 
 button:hover,
 button:focus {
@@ -497,6 +496,7 @@ button:focus {
 .new {
     right: 80px;
 }
+
 
 }
 
@@ -531,6 +531,9 @@ footer {
 .new:focus {
     transform: scale(1.05);
 }
+
+
+
 }
 
 @media screen and (min-width: 920px) {
@@ -564,6 +567,9 @@ footer {
 .new:focus {
     transform: scale(1.05);
 }
+
+
+
 }
 
 @media screen and (min-width: 1020px) {
@@ -645,9 +651,6 @@ footer {
     bottom: -15px;
 }
 
-button {
-    width: 15%;
-}
 
 footer {
     text-align: center;
