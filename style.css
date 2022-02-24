@@ -413,7 +413,7 @@ h1 + .far {
     padding: 2em 0.8em 0px;
     
 }
-.conteneur-icon  {
+.container-icon  {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -428,13 +428,13 @@ h1 + .far {
     
 }
 
-.list-food li:hover .conteneur-icon,
-.list-food:focus .conteneur-icon {
+.list-food li:hover .container-icon,
+.list-food:focus .container-icon {
     width: 4em;
     }
 
-.list-food li:hover .conteneur-icon-check > .fa-check-circle,
-.list-food li:focus .conteneur-icon-check > .fa-check-circle {
+.list-food li:hover .container-icon-check > .fa-check-circle,
+.list-food li:focus .container-icon-check > .fa-check-circle {
     opacity: 1;
     transition: 0.5s ease-in-out;
     transform: rotate(360deg);
@@ -443,7 +443,7 @@ h1 + .far {
 }
 
 
-.conteneur-icon-check {
+.container-icon-check {
     display: flex;
     align-items: center;
     justify-content: center;
