@@ -1,9 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
+/* keyframes */ 
 
+@keyframes hide {
+    0% {
+        transform: scale(1);
+    }
+      
+      100% {
+        transform: scale(0);
+    }
+}
+
+@keyframes move-up {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+}
+
+@keyframes rotation {
+    0% {
+      transform: rotate(0deg)
+    }
+    100% {
+      transform: rotate(360deg)
+}
+}
+
+/* Fin du Keyframes */
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
+ /* Creation du loeder */
+
+
+.loader {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: white;
+    height: 100vh; 
+    top: 0; bottom: 0; left: 0; right: 0;
+    z-index: 2;
+    animation: hide 1s 3s forwards;
+    transform-origin: top;
+}
+
+.fa-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9356DC;
+}
+
 
 header {
     display: flex;
@@ -266,16 +320,51 @@ header-food {
     padding-left: 15px;
 }
 
-.heart {
-    align-self: center;
-    padding-right: 25px;
-    font-size: 2em;
-    transition: 0.5s;
+.far:hover,
+.far:focus {
+    background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
+    background-clip: border-box;
+    cursor: pointer;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1 + .far {
+    position: relative;
+    top: 15px;
+    right: 3.5em;
 }
 
-.heart:hover {
-    background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
 
+.far  {
+   font-size: 2em;
+   cursor: pointer;
+   position: relative;
+   z-index: 1;
+}
+
+
+.heart-bg {
+    opacity: 0;
+    z-index: 2;
+    cursor: pointer;
+    background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     position: absolute;
+     top:0;
+     left: 0;
+}
+
+.heart-bg:hover,
+.heart-bg:focus {
+    background: linear-gradient(180deg, #9356DC 0%, #FF79DA 100%);
+    cursor: pointer;
+    background-clip: text;
+    -webkit-background-clip: text;
+    transform: scale(1.2);
+    opacity: 1;
+    transition: transform 2s, opacity 2s;
 }
 
 .list-food h2 {
@@ -303,6 +392,8 @@ header-food {
     margin-bottom: 15px;
     align-items: center;
     animation: amination-menu 5s;
+    transition-duration:margin-right 2s;
+    cursor: pointer;
 }
 
 .list-food h3 {
@@ -322,15 +413,45 @@ header-food {
     padding: 2em 0.8em 0px;
     
 }
-
-.conteneur-icon i {
-    color:white;
-    font-size: 1em;
-    transition-duration: 0.5s;
-    transition-property: transform;
+.container-icon  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 12px 12px 0;
+    background: #99E2D0;
+    cursor: pointer;
+    height: 4em;
     width: 0;
+    transition:width 4s cubic-bezier(.19,1,.22,1);
     overflow: hidden;
+    animation: rotation 0.7s ease-in-out;
+    
 }
+
+.list-food li:hover .container-icon,
+.list-food:focus .container-icon {
+    width: 4em;
+    }
+
+.list-food li:hover .container-icon-check > .fa-check-circle,
+.list-food li:focus .container-icon-check > .fa-check-circle {
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+
+
+.container-icon-check {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+    color: white;
+    font-size: 2em;
+}
+
 
 button {
     border: none;
@@ -340,11 +461,19 @@ button {
     margin: 20px;
     align-self: center;
     font-weight: bolder;
-    font-size: 1.2em;
-    width: 50%;
+    font-size: 1em;
     height: 50px;
+    transition: 0.2s ease-in;
+    padding: 0 20px 0 20px;
 } 
+button:hover,
+button:focus {
+    transform: translateY(-1px);
+    transition: 0.2s ease-in;
+    opacity: 0.8;
+    box-shadow: 0.25em 0.25em 10px rgba(0, 0, 0, 0.5)
 
+}
 /* CSS Page index Tablette Media
   */
 
@@ -367,6 +496,7 @@ button {
 .new {
     right: 80px;
 }
+
 
 }
 
@@ -392,15 +522,18 @@ button {
 footer {
     text-align: center;
 }
-.fonctionnement li:hover {
+
+.link-restaurant li:hover,
+.link-restaurant li:focus{
     transform: scale(1.05);
 }
-.link-restaurant li:hover {
+.new:hover
+.new:focus {
     transform: scale(1.05);
 }
-.new:hover {
-    transform: scale(1.05);
-}
+
+
+
 }
 
 @media screen and (min-width: 920px) {
@@ -426,15 +559,21 @@ footer {
 .fonctionnement li:hover {
     transform: scale(1.05);
 }
-.link-restaurant li:hover {
+.link-restaurant li:hover,
+.link-restaurant li:focus {
     transform: scale(1.05);
 }
-.new:hover {
+.new:hover,
+.new:focus {
     transform: scale(1.05);
 }
+
+
+
 }
 
 @media screen and (min-width: 1020px) {
+
 
 .fonctionnement ul {
     padding: 0;
@@ -494,9 +633,7 @@ footer {
     justify-content: space-between;
 }
 
-.main-header-food i {
-    padding-right: 120px;
-}
+
 
 .main-header-food h1 {
     padding-left: 110px;
@@ -505,60 +642,44 @@ footer {
 .list-food {
     padding-left: 100px;
     padding-right: 100px;
+    overflow: hidden;
+    animation: move-up 5s ease-in-out both;
 }
 
-button {
-    width: 20%;
+
+.main-header-food far {
+    bottom: -15px;
 }
+
 
 footer {
     text-align: center;
 }
 
-.list-food b {
-    
+.list-food ul {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.list-food-submenu-1 {
+    animation: move-up 5s 0.3s ease-in-out both;
+}
+
+.list-food-submenu-2 {
+    animation: move-up 5s 0.4s ease-in-out both;
+}
+
+.list-food-submenu-3 {
+    animation: move-up 5s 0.5s ease-in-out both;
 }
 
 
-.conteneur-icon {
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 0 12px 12px 0;
-    background: #99E2D0;
-overflow: hidden;
-    height: 4em;
-    width: 3em;
-    margin-right: -3em;
-transition: all 0.5s;
-visibility: hidden;
-}
-.conteneur-icon:hover {
-    
-    margin-right: 0;
-    width: 4em;
-     }
-
-
-
-.conteneur-icon i {
-    font-size: 2em;
-    color: white;
-}
-.conteneur-icon i:hover {
-    
-    transform: rotate(360deg);
-
+.button:hover,
+.button:focus {
+    opacity: 0.8;
+    box-shadow: 0.25em 0.25em 10px rgba(0, 0, 0, 0.5)
 }
 
-@keyframes amination-menu {
-    0% {
-        transform: scale(0);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
 
 }
