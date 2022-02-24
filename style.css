@@ -21,6 +21,16 @@
       opacity: 1;
     }
 }
+
+@keyframes rotation {
+    0% {
+      transform: rotate(0deg)
+    }
+    100% {
+      transform: rotate(360deg)
+}
+}
+
 /* Fin du Keyframes */
 body {
     font-family: 'Roboto', sans-serif;
@@ -414,7 +424,8 @@ h1 + .far {
     width: 0;
     transition:width 4s cubic-bezier(.19,1,.22,1);
     overflow: hidden;
-
+    animation: rotation 0.7s ease-in-out;
+    
 }
 
 .list-food li:hover .conteneur-icon,
@@ -422,8 +433,8 @@ h1 + .far {
     width: 6em;
     }
 
-.conteneur-icon:hover .conteneur-icon-check > .fa-check-circle,
-.conteneur-icon:focus .conteneur-icon-check > .fa-check-circle {
+.list-food li:hover .conteneur-icon-check > .fa-check-circle,
+.list-food li:focus .conteneur-icon-check > .fa-check-circle {
     opacity: 1;
     transition: 0.5s ease-in-out;
     transform: rotate(360deg);
@@ -626,7 +637,7 @@ footer {
     padding-left: 100px;
     padding-right: 100px;
     overflow: hidden;
-    animation: move-up 5s ease-in-out both
+    animation: move-up 5s ease-in-out both;
 }
 
 
