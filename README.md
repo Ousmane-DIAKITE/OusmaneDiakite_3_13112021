@@ -58,6 +58,6 @@ https://github.com/Ousmane-DIAKITE/OusmaneDiakite_3_13112021/blob/main/images/ma
 
 <h2>Pour tester</h2>
 
-    simplement & rapidement, veuillez préférer visiter la démo en ligne : https://ousmane-diakite.github.io/OusmaneDiakite_3_13112021/
+    veuillez préférer visiter la démo en ligne : https://ousmane-diakite.github.io/OusmaneDiakite_3_13112021/
  
 
