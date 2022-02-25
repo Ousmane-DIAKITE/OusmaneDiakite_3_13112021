@@ -10,7 +10,12 @@ OusmaneDiakite_3_13112021
 <p>Voici les maquettes à réaliser ci-dessous:</p>
 
 <p>La Page Principal</p>
-https://github.com/Ousmane-DIAKITE/OusmaneDiakite_3_13112021/blob/main/images/maquettes/Accueil.png
+C:\Users\ousma\OneDrive\Documents\projet\OusmaneDiakite_3_13112021\images\maquettes
 
 <p>La Page Des Menu</p>
 https://github.com/Ousmane-DIAKITE/OusmaneDiakite_3_13112021/blob/main/images/maquettes/Menu%20-%20La%20note%20enchant%C3%A9e.png
+
+<h2>Objectifs</h2>
+
+    Développer un site proposant le menu de 4 grands restaurants parisiens.
+    Permettre la réservation en ligne et la composition de menus.
