@@ -1,10 +1,10 @@
-OusmaneDiakite_3_13112021
 
 
-#PROJECT 3 OH MY FOOD
 
+#PROJECT 3 OH MY FOOD<br>
 
-<p>Je m'appelle Ousmane Diakité</p><br>
+                                                                                                  OusmaneDiakite_3_13112021
+<p>Je m'appelle Ousmane Diakité</p>
 <p>je vais vous présenter le troisième projet du parcours "Développeur web" chez OpenClassroom.</p> 
 <p>L'objectif d'intégrer puis de dynamiser une page web avec des animations CSS en utilisant le préprocesseur Sass.</p>
 <p>Voici les maquettes à réaliser ci-dessous:</p>
