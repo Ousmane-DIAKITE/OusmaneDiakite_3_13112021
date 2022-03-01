@@ -383,6 +383,13 @@ h1 + .far {
     margin: 0;
     padding: 0 0.6em;
 }
+/* Hover Page Restaurant */
+
+.link-restaurant:hover {
+    opacity: 0.9;
+    box-shadow: 0px 10px 20px 0px #bbb;
+    transform: scale(1);
+}   
 
 .list-food li {
     background-color: white;
@@ -658,17 +665,4 @@ button:focus {
     }
 }
 
-/* Hover Page Restaurant */
 
-.link-restaurant:hover {
-    opacity: 0.9;
-    box-shadow: 0px 10px 20px 0px #bbb;
-    transform: scale(1);
-}
-
-/* CSS Page Restaurant Tablette Media
-  */
-
-@media screen and (min-width: 768px) {
-    
-}
