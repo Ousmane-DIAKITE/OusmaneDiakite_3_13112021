@@ -122,8 +122,8 @@ h2 {
     align-items: center;
     height: 25px;
 }
-.fonctionnement ul {
 
+.fonctionnement ul {
     padding-left: 10px;
 }
 
@@ -149,7 +149,7 @@ h2 {
 .link-restaurant {
     background-color: #f6f6f6;
     padding: 1em 1em 1.3em;
-    max-width: 1600px;
+    max-width: 100%;
 }
 
 h2 {
@@ -162,9 +162,11 @@ a {
     text-decoration: none;
     color: black;
 }
+
 figure p {
     position: absolute;
 }
+
 .link-restaurant ul {
     padding: 0;
 }
@@ -325,6 +327,7 @@ header-food {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 h1 + .far {
     position: relative;
     top: 15px;
@@ -348,9 +351,9 @@ h1 + .far {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-     position: absolute;
-     top:0;
-     left: 0;
+    position: absolute;
+    top:0;
+    left: 0;
 }
 
 .heart-bg:hover,
@@ -381,7 +384,6 @@ h1 + .far {
     padding: 0 0.6em;
 }
 
-
 .list-food li {
     background-color: white;
     display: flex;
@@ -407,9 +409,10 @@ h1 + .far {
     display: flex;
     justify-content: flex-end;
     margin-left: auto;
-    padding: 2em 0.8em 0px;
+    padding: 2em 0.8em 0;
     
 }
+
 .container-icon  {
     display: flex;
     justify-content: center;
@@ -428,7 +431,7 @@ h1 + .far {
 .list-food li:hover .container-icon,
 .list-food:focus .container-icon {
     width: 4em;
-    }
+}
 
 .list-food li:hover .container-icon-check > .fa-check-circle,
 .list-food li:focus .container-icon-check > .fa-check-circle {
@@ -439,7 +442,6 @@ h1 + .far {
     -ms-transform: rotate(360deg);
 }
 
-
 .container-icon-check {
     display: flex;
     align-items: center;
@@ -448,7 +450,6 @@ h1 + .far {
     color: white;
     font-size: 2em;
 }
-
 
 button {
     border: none;
@@ -463,154 +464,198 @@ button {
     transition: 0.2s ease-in;
     padding: 0 20px 0 20px;
 } 
+
 button:hover,
 button:focus {
     transform: translateY(-1px);
     transition: 0.2s ease-in;
     opacity: 0.8;
     box-shadow: 0.25em 0.25em 10px rgba(0, 0, 0, 0.5)
-
 }
+
 /* CSS Page index Tablette Media
   */
 
 @media screen and (min-width: 576px) {
-
-.fonctionnement ul {
+    .fonctionnement ul {
     padding-left: 40px;
     padding-right: 40px;
-}   
+    }   
     
-.fonctionnement i {
+    .fonctionnement i {
     padding-left: 120px;
-}
+    }
     
-.link-restaurant ul {
+    .link-restaurant ul {
     padding-left: 40px;
     padding-right: 40px;
-}
+    }
 
-.new {
+    .new {
     right: 80px;
-}
-
-
+    }
 }
 
 @media screen and (min-width: 768px) {
-
-.fonctionnement ul {
+    .fonctionnement ul {
     padding-left: 70px;
     padding-right: 70px;
-}   
+    }   
 
-.fonctionnement i {
+    .fonctionnement i {
     padding-left: 200px;
-}
+    }
 
-.link-restaurant ul {
+    .link-restaurant ul {
     padding-left: 70px;
     padding-right: 70px;
-}
+    }
 
-.new {
+    .new {
     right: 110px;
-}
-footer {
+    }
+
+    footer {
     text-align: center;
-}
+    }
 
-.link-restaurant li:hover,
-.link-restaurant li:focus{
+    .link-restaurant li:hover,
+    .link-restaurant li:focus{
     transform: scale(1.05);
-}
-.new:hover
-.new:focus {
+    }
+
+    .new:hover
+    .new:focus {
     transform: scale(1.05);
-}
+    }
 
+/* media screen menu */
+    .main-header-food div {
+    justify-content: space-between;
+    }
 
+    .main-header-food h1 {
+    padding-left: 110px;
+    }
 
+    .list-food {
+    padding-left: 100px;
+    padding-right: 100px;
+    overflow: hidden;
+    animation: move-up 5s ease-in-out both;
+    }
+
+    .main-header-food far {
+    bottom: -15px;
+    }
+
+    footer {
+    text-align: center;
+    }
+
+    .list-food ul {
+    overflow: hidden;
+    cursor: pointer;
+    }
+
+    .list-food-submenu-1 {
+    animation: move-up 5s 0.3s ease-in-out both;
+    }
+
+    .list-food-submenu-2 {
+    animation: move-up 5s 0.4s ease-in-out both;
+    }
+
+    .list-food-submenu-3 {
+    animation: move-up 5s 0.5s ease-in-out both;
+    }
+
+    .button:hover,
+    .button:focus {
+    opacity: 0.8;
+    box-shadow: 0.25em 0.25em 10px rgba(0, 0, 0, 0.5)
+    }
+/*media screen fin menu */
 }
 
 @media screen and (min-width: 920px) {
-
-.link-restaurant ul {
+    .link-restaurant ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
     padding-left: 0;
     padding-right: 0;
-}
+    }
     
-.link-restaurant figure {
+    .link-restaurant figure {
     width: 335px;
-}
+    }
     
-.new {
+    .new {
     right: auto;
     margin: 10px 0 0 235px;
-}
+    }
 
-.fonctionnement li:hover {
+    .fonctionnement li:hover {
     transform: scale(1.05);
-}
-.link-restaurant li:hover,
-.link-restaurant li:focus {
+    }
+
+    .link-restaurant li:hover,
+    .link-restaurant li:focus {
     transform: scale(1.05);
-}
-.new:hover,
-.new:focus {
+    }
+
+    .new:hover,
+    .new:focus {
     transform: scale(1.05);
-}
-
-
-
+    }
 }
 
 @media screen and (min-width: 1020px) {
-
-
-.fonctionnement ul {
+    .fonctionnement ul {
     padding: 0;
     padding-left: 10px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
+    }
 
-.fonctionnement li {
+    .fonctionnement li {
     margin-right: 25px;
     margin-top: 25px;
-}
+    }
 
-.fonctionnement i {   
+    .fonctionnement i {   
     padding-left: 0em;
-}
+    }
 
-#restaurant ul {
+    #restaurant ul {
     justify-content: space-evenly;
     display: flex;
     flex-flow: wrap;
-}
+    }
 
-.link-restaurant figure {
+    .link-restaurant figure {
     width: 310px;
-}
-.new {
+    }
+
+    .new {
     margin: 10px 0 0 200px;
     right: auto;
-}
-.fonctionnement li:hover {
+    }
+
+    .fonctionnement li:hover {
     transform: scale(1.05);
-}
-.link-restaurant li:hover {
+    }
+
+    .link-restaurant li:hover {
     transform: scale(1.05);
-}
-.new:hover {
+    }
+
+    .new:hover {
     transform: scale(1.05);
-}
+    }
 }
 
 /* Hover Page Restaurant */
@@ -625,58 +670,5 @@ footer {
   */
 
 @media screen and (min-width: 768px) {
-
-.main-header-food div {
-    justify-content: space-between;
-}
-
-
-
-.main-header-food h1 {
-    padding-left: 110px;
-}
-
-.list-food {
-    padding-left: 100px;
-    padding-right: 100px;
-    overflow: hidden;
-    animation: move-up 5s ease-in-out both;
-}
-
-
-.main-header-food far {
-    bottom: -15px;
-}
-
-
-footer {
-    text-align: center;
-}
-
-.list-food ul {
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.list-food-submenu-1 {
-    animation: move-up 5s 0.3s ease-in-out both;
-}
-
-.list-food-submenu-2 {
-    animation: move-up 5s 0.4s ease-in-out both;
-}
-
-.list-food-submenu-3 {
-    animation: move-up 5s 0.5s ease-in-out both;
-}
-
-
-
-.button:hover,
-.button:focus {
-    opacity: 0.8;
-    box-shadow: 0.25em 0.25em 10px rgba(0, 0, 0, 0.5)
-}
-
-
+    
 }
