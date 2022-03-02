@@ -331,7 +331,7 @@ header-food {
 h1 + .far {
     position: relative;
     top: 15px;
-    right: 3.5em;
+    right: 1em;
 }
 
 
@@ -543,6 +543,12 @@ button:focus {
 
     .main-header-food h1 {
     padding-left: 110px;
+    }
+
+    h1 + .far {
+        position: relative;
+        top: 15px;
+        right: 3.5em;
     }
 
     .list-food {
