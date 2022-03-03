@@ -3,17 +3,13 @@
 
 #PROJECT 3 OH MY FOOD<br>
 
-                                                                                                  OusmaneDiakite_3_13112021
+                                                                                             
 <p>Je m'appelle Ousmane Diakité</p>
 <p>je vais vous présenter le troisième projet du parcours "Développeur web" chez OpenClassroom.</p> 
 <p>L'objectif d'intégrer puis de dynamiser une page web avec des animations CSS en utilisant le préprocesseur Sass.</p>
-<p>Voici les maquettes à réaliser ci-dessous:</p>
 
-<p>La Page Principal</p>
-C:\Users\ousma\OneDrive\Documents\projet\OusmaneDiakite_3_13112021\images\maquettes
-
-<p>La Page Des Menu</p>
-https://github.com/Ousmane-DIAKITE/OusmaneDiakite_3_13112021/blob/main/images/maquettes/Menu%20-%20La%20note%20enchant%C3%A9e.png
+<h2>Ohmyfoood!<h2>
+Ohmyfood! est une entreprise de commande de repas en ligne. Le concept permet aux utilisateurs de composer leur propre menu et réduire leur temps d’attente dans les restaurants car leur menu est préparé à l’avance. Plus de perte de temps à consulter la carte !
 
 <h2>Objectifs</h2>
 
