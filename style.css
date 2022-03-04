@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
-/* keyframes */ 
+
+:root {
+    --white: #f2f2f2;
+}
 
 @keyframes hide {
     0% {
@@ -90,7 +93,7 @@ form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #F2F2F2;
+    background-color: var(--white);
     padding: 1em 0 1em;
     text-align: center;
 }
@@ -284,7 +287,7 @@ header-food {
 .main-food {
     display: flex;
     flex-direction: column;
-    background-color: #F2F2F2;
+    background-color: var(--white);
     padding-bottom: 40px;
 }
 
@@ -307,7 +310,7 @@ header-food {
     font-family: "Shrikhand", cursive;
     padding: 0.5em 0 0;
     position: absolute;
-    background: #F2F2F2;
+    background: var(--white);
     border-top-left-radius: 45px;
     border-top-right-radius: 45px;
     width: 100%;
@@ -484,65 +487,65 @@ button:focus {
   */
 
 @media screen and (min-width: 576px) {
-    .fonctionnement ul {
+  .fonctionnement ul {
     padding-left: 40px;
     padding-right: 40px;
-    }   
+  }   
     
-    .fonctionnement i {
+  .fonctionnement i {
     padding-left: 120px;
-    }
+  }
     
-    .link-restaurant ul {
+  .link-restaurant ul {
     padding-left: 40px;
     padding-right: 40px;
-    }
+  }
 
-    .new {
+  .new {
     right: 80px;
-    }
+  }
 }
 
 @media screen and (min-width: 768px) {
     .fonctionnement ul {
-    padding-left: 70px;
-    padding-right: 70px;
+        padding-left: 70px;
+        padding-right: 70px;
     }   
 
     .fonctionnement i {
-    padding-left: 200px;
+        padding-left: 200px;
     }
 
     .link-restaurant ul {
-    padding-left: 70px;
-    padding-right: 70px;
+        padding-left: 70px;
+        padding-right: 70px;
     }
 
     .new {
-    right: 110px;
+        right: 110px;
     }
 
     footer {
-    text-align: center;
+        text-align: center;
     }
 
     .link-restaurant li:hover,
     .link-restaurant li:focus{
-    transform: scale(1.05);
+        transform: scale(1.05);
     }
 
     .new:hover
     .new:focus {
-    transform: scale(1.05);
+        transform: scale(1.05);
     }
 
 /* media screen menu */
     .main-header-food div {
-    justify-content: space-between;
+        justify-content: space-between;
     }
 
     .main-header-food h1 {
-    padding-left: 110px;
+        padding-left: 110px;
     }
 
     h1 + .far {
@@ -552,122 +555,122 @@ button:focus {
     }
 
     .list-food {
-    padding-left: 100px;
-    padding-right: 100px;
-    overflow: hidden;
-    animation: move-up 5s ease-in-out both;
+        padding-left: 100px;
+        padding-right: 100px;
+        overflow: hidden;
+        animation: move-up 5s ease-in-out both;
     }
 
     .main-header-food far {
-    bottom: -15px;
+        bottom: -15px;
     }
 
     footer {
-    text-align: center;
+        text-align: center;
     }
 
     .list-food ul {
-    overflow: hidden;
-    cursor: pointer;
+        overflow: hidden;
+        cursor: pointer;
     }
 
     .list-food-submenu-1 {
-    animation: move-up 5s 0.3s ease-in-out both;
+        animation: move-up 5s 0.3s ease-in-out both;
     }
 
     .list-food-submenu-2 {
-    animation: move-up 5s 0.4s ease-in-out both;
+        animation: move-up 5s 0.4s ease-in-out both;
     }
 
     .list-food-submenu-3 {
-    animation: move-up 5s 0.5s ease-in-out both;
+        animation: move-up 5s 0.5s ease-in-out both;
     }
 
     .button:hover,
     .button:focus {
-    opacity: 0.8;
-    box-shadow: 0.25em 0.25em 10px rgba(0, 0, 0, 0.5)
+        opacity: 0.8;
+        box-shadow: 0.25em 0.25em 10px rgba(0, 0, 0, 0.5)
     }
 /*media screen fin menu */
 }
 
 @media screen and (min-width: 920px) {
     .link-restaurant ul {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding-left: 0;
-    padding-right: 0;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-left: 0;
+        padding-right: 0;
     }
     
     .link-restaurant figure {
-    width: 335px;
+        width: 335px;
     }
     
     .new {
-    right: auto;
-    margin: 10px 0 0 235px;
+        right: auto;
+        margin: 10px 0 0 235px;
     }
 
     .fonctionnement li:hover {
-    transform: scale(1.05);
+        transform: scale(1.05);
     }
 
     .link-restaurant li:hover,
     .link-restaurant li:focus {
-    transform: scale(1.05);
+        transform: scale(1.05);
     }
 
     .new:hover,
     .new:focus {
-    transform: scale(1.05);
+        transform: scale(1.05);
     }
 }
 
 @media screen and (min-width: 1020px) {
     .fonctionnement ul {
-    padding: 0;
-    padding-left: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+        padding: 0;
+        padding-left: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 
     .fonctionnement li {
-    margin-right: 25px;
-    margin-top: 25px;
+        margin-right: 25px;
+        margin-top: 25px;
     }
 
     .fonctionnement i {   
-    padding-left: 0em;
+        padding-left: 0em;
     }
 
     #restaurant ul {
-    justify-content: space-evenly;
-    display: flex;
-    flex-flow: wrap;
+        justify-content: space-evenly;
+        display: flex;
+        flex-flow: wrap;
     }
 
     .link-restaurant figure {
-    width: 310px;
+        width: 310px;
     }
 
     .new {
-    margin: 10px 0 0 200px;
-    right: auto;
+        margin: 10px 0 0 200px;
+        right: auto;
     }
 
     .fonctionnement li:hover {
-    transform: scale(1.05);
+        transform: scale(1.05);
     }
 
     .link-restaurant li:hover {
-    transform: scale(1.05);
+        transform: scale(1.05);
     }
 
     .new:hover {
-    transform: scale(1.05);
+        transform: scale(1.05);
     }
 }
 
